@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
   $("#btn1").click(function(){
     window.location.href = "overview.html"
   });
@@ -13,21 +14,21 @@ $(document).ready(function(){
   });
 
   $(".currentm").click(function(){
-    $(".mcurrent").css("display", "block");
-    $(".mprevious").css("display", "none");
+    $(".mcurrent").slideDown(1000);
+    $(".mprevious").slideUp(1);
   });
   $(".pastm").click(function(){
-    $(".mcurrent").css("display", "none");
-    $(".mprevious").css("display", "block");
+    $(".mcurrent").slideUp(1);
+    $(".mprevious").slideDown(1000);
   });
 
   $(".currentp").click(function(){
-    $("#current").css("display", "block");
-    $("#past").css("display", "none");
+    $("#current").slideDown(1000);
+    $("#past").slideUp(1);
   });
   $(".pastp").click(function(){
-    $("#current").css("display", "none");
-    $("#past").css("display", "block");
+    $("#current").slideUp(1);
+    $("#past").slideDown(1000);
   });
 
   $("#cplink1").click(function(){
@@ -113,22 +114,22 @@ $(document).ready(function(){
   });
 
 
-  $(".item1").hover(function(){
+  $("#img1").hover(function(){
     $("#i2").css({"font-size":"17px","left":"97.7%","top":"271px"});
     },function(){
       $("#i2").css({"font-size":"9px","left":"97.9%","top":"275px"});
     });
-  $(".item2").hover(function(){
+  $("#img2").hover(function(){
     $("#i1").css({"font-size":"17px","left":"97.7%","top":"297px"});
     },function(){
       $("#i1").css({"font-size":"9px","left":"97.9%","top":"301px"});
     });
-  $(".item3").hover(function(){
+  $("#img3").hover(function(){
     $("#i3").css({"font-size":"17px","left":"97.7%","top":"324px"});
     },function(){
       $("#i3").css({"font-size":"9px","left":"97.9%","top":"327px"});
     });
-  $(".item4").hover(function(){
+  $("#img4").hover(function(){
     $("#i4").css({"font-size":"17px","left":"97.7%","top":"350px"});
     },function(){
       $("#i4").css({"font-size":"9px","left":"97.9%","top":"353px"});
@@ -161,4 +162,10 @@ $(document).ready(function(){
 	  isPagination:true,
 	  isArrows:true
 	});*/
+});
+
+$(document).ready(function(){
+  $('#fullpage').fullpage({
+    navigation: true
+  });
 });

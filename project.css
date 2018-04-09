@@ -95,6 +95,23 @@
     color: white;
 }
 
+#curr{
+    position: absolute;
+    width: inherit;
+    text-align: center;
+    font-family: arial;
+    font-size: 21px;
+}
+
+#pas{
+    position: absolute;
+    width: inherit;
+    text-align: center;
+    font-family: arial;
+    font-size: 21px;
+}
+
+
 .pdropdown .pdropbtn4{
     font-size: 16px;
     border: none;
@@ -202,20 +219,28 @@
 
 #current {
     position: absolute;
-    top: 190px;
-    left: 27%;
+    top: 200px;
+    left: 24%;
     display: block;
-    width: 400px;
-    height: 100px;
+    width: 730px;
+    height: 1270px;
+    border: 1px solid;
+    border-color: #262626;
 }
 
 #past {
+    border: 1px solid;
+    border-color: #262626;
     position: absolute;
-    top: 190px;
-    left: 27%;
+    top: 200px;
+    left: 24%;
     display: none;
-    width: 400px;
-    height: 100px;
+    width: 730px;
+    height:870px;
+}
+
+#cplink1, #cplink2, #cplink3, #cplink4, #cplink5, #cplink6, #cplink7, #cplink8, #cplink9, #cplink10, #cplink11, #cplink12, #pplink1, #pplink2, #pplink3, #pplink4, #pplink5, #pplink6, #pplink7, #pplink8{
+    cursor: pointer;
 }
 
 .cmodal1, .cmodal2, .cmodal3, .cmodal4, .cmodal5,.cmodal6, .ppmodal1, .ppmodal2, .ppmodal3, .ppmodal4 {
@@ -259,7 +284,6 @@
     font-family: arial;
     font-size: 21px;
     text-align: center;
-
 }
 
 #cps1, #cps2, #cps3,#cps4, #cps5,#cps6,#pps1, #pps2, #pps3,#pps4{
@@ -347,6 +371,7 @@
 #cproject1 {
     position: absolute;
     top: 119px;
+    left: 3%;
     width: 600px;
     height: 140px;
     box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.3);
@@ -355,6 +380,7 @@
 #cproject2 {
     position: absolute;
     top: 300px;
+    left: 3%;
     width: 600px;
     height: 140px;
     box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.3);
@@ -363,6 +389,7 @@
 #cproject3 {
     position: absolute;
     top: 479px;
+    left: 3%;
     width: 600px;
     height: 140px;
     box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.3);
@@ -371,6 +398,7 @@
 #cproject4 {
     position: absolute;
     top: 669px;
+    left: 3%;
     width: 600px;
     height: 140px;
     box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.3);
@@ -379,6 +407,7 @@
 #cproject5 {
     position: absolute;
     top: 859px;
+    left: 3%;
     width: 600px;
     height: 140px;
     box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.3);
@@ -387,6 +416,7 @@
 #cproject6 {
     position: absolute;
     top: 1049px;
+    left: 3%;
     width: 600px;
     height: 140px;
     box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.3);
@@ -419,6 +449,7 @@
 #pproject1 {
     position: absolute;
     top: 119px;
+    left: 3%;
     width: 600px;
     height: 120px;
     box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.3);
@@ -427,6 +458,7 @@
 #pproject2 {
     position: absolute;
     top: 299px;
+    left: 3%;
     width: 600px;
     height: 120px;
     box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.3);
@@ -435,6 +467,7 @@
 #pproject3 {
     position: absolute;
     top: 479px;
+    left: 3%;
     width: 600px;
     height: 120px;
     box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.3);
@@ -443,43 +476,8 @@
 #pproject4 {
     position: absolute;
     top: 679px;
+    left: 3%;
     width: 600px;
     height: 120px;
     box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.3);
-}
-
-#hr1 {
-    height: 3px;
-    width: 49px;
-    background-color: gray;
-    position: absolute;
-    top: 28px;
-    left: -15%;
-}
-
-#hr2 {
-    height: 3px;
-    width: 398px;
-    background-color: gray;
-    position: absolute;
-    top: 28px;
-    left: 61%;
-}
-
-#hr3 {
-    height: 3px;
-    width: 49px;
-    background-color: gray;
-    position: absolute;
-    top: 28px;
-    left: -15%;
-}
-
-#hr4 {
-    height: 3px;
-    width: 450px;
-    background-color: gray;
-    position: absolute;
-    top: 28px;
-    left: 48%;
 }

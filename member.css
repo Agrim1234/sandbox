@@ -181,6 +181,7 @@
     display: block;
     width: 400px;
     height: 100px;
+    
 }
 
 #pastm {
@@ -189,42 +190,6 @@
     display: none;
     width: 400px;
     height: 100px;
-}
-
-#hr1 {
-    height: 3px;
-    width: 49px;
-    background-color: gray;
-    position: absolute;
-    top: 222px;
-    left: 22%;
-}
-
-#hr2 {
-    height: 3px;
-    width: 450px;
-    background-color: gray;
-    position: absolute;
-    top: 222px;
-    left: 42%;
-}
-
-#hr3 {
-    height: 3px;
-    width: 49px;
-    background-color: gray;
-    position: absolute;
-    top: 222px;
-    left: 22%;
-}
-
-#hr4 {
-    height: 3px;
-    width: 450px;
-    background-color: gray;
-    position: absolute;
-    top: 222px;
-    left: 42%;
 }
 
 .cur {
@@ -251,17 +216,17 @@
 
 #person1 {
   position: absolute;
-  top: 320px;
+  top: 160px;
   width: 160px;
   height: 220px;
-  left:66.3%;
+  left:3%;
   box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.5);
 }
 
 #person2 {
     position: absolute;
-    top: 320px;
-    left:51.6%;
+    top: 160px;
+    left:22.6%;
     width: 160px;
     height: 220px;
     box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.5);
@@ -269,8 +234,8 @@
 
 #person3 {
     position: absolute;
-    top: 320px;
-    left:22%;
+    top: 160px;
+    left:42%;
     width: 160px;
     height: 220px;
     box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.5);
@@ -278,8 +243,8 @@
 
 #person4 {
     position: absolute;
-    top: 320px;
-    left:37%;
+    top: 160px;
+    left:61.4%;
     width: 160px;
     height: 220px;
     box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.5);
@@ -287,7 +252,7 @@
 
 #person5 {
     position: absolute;
-    top: 320px;
+    top: 160px;
     left:81%;
     width: 160px;
     height: 220px;
@@ -296,8 +261,8 @@
 
 #person6 {
     position: absolute;
-    top: 620px;
-    left:22%;
+    top: 500px;
+    left:3%;
     width: 160px;
     height: 220px;
     box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.5);
@@ -305,8 +270,8 @@
 
 #person7 {
     position: absolute;
-    top: 620px;
-    left:37%;
+    top: 500px;
+    left:22.6%;
     width: 160px;
     height: 220px;
     box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.5);
@@ -332,8 +297,8 @@
 
 #pperson1 {
   position: absolute;
-  top: 320px;
-  left:66.3%;
+  top: 160px;
+  left:3%;
     width: 160px;
     height: 220px;
     box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.5);
@@ -341,8 +306,8 @@
 
 #pperson2 {
   position: absolute;
-  top: 320px;
-  left:51.5%;
+  top: 160px;
+  left:22.6%;
     width: 160px;
     height: 220px;
     box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.5);
@@ -350,8 +315,8 @@
 
 #pperson3 {
   position: absolute;
-  top: 320px;
-  left:22%;
+  top: 160px;
+  left:42%;
     width: 160px;
     height: 220px;
     box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.5);
@@ -359,8 +324,8 @@
 
 #pperson4 {
   position: absolute;
-  top: 320px;
-  left:36.7%;
+  top: 160px;
+  left:61.7%;
     width: 160px;
     height: 220px;
     box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.5);
@@ -385,20 +350,38 @@
 
 #mcurr {
     position: absolute;
-    top: 194px;
-    left: 27%
+    top: 24px;
+    font-family: arial;
+    font-size: 21px;
+    width: inherit;
+    text-align: center;
 }
 
 #mpre {
     position: absolute;
-    top: 194px;
-    left: 26.5%;
+    top: 24px;
+    font-family: arial;
+    font-size: 21px;
+    width: inherit;
+    text-align: center;
 }
 
 .mprevious{
+    position: absolute;
+    left: 23%;
+    top: 200px;
     display: none;
+    border: 1px solid;
+    height:549px;
+    width: 940px;
 }
 
-.mcurrent{
+.mcurrent{    
+    position: absolute;
+    left: 23%;
+    top: 200px;
     display: block;
+    border: 1px solid;
+    height:799px;
+    width: 940px;
 }
