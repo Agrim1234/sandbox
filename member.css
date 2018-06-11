@@ -74,6 +74,7 @@
     background-color: inherit;
     font: inherit;
     color: white;
+    cursor: pointer;
 }
 
 .dropdown .dropbtn2{
@@ -84,6 +85,7 @@
     background-color: inherit;
     font: inherit;
     color: black;
+    cursor: pointer;
 }
 
 .dropdown .dropbtn3{
@@ -94,6 +96,7 @@
     background-color: inherit;
     font: inherit;
     color: white;
+    cursor: pointer;
 }
 
 .dropdown .dropbtn4{
@@ -104,6 +107,7 @@
     background-color: inherit;
     font: inherit;
     color: white;
+    cursor: pointer;
 }
 
 .dropdown:hover .dropbtn1{
@@ -211,9 +215,9 @@
 }
 
 #current{
-    width: 100%;
+  width: 100%;
   font-family: arial;
-    font-size: 26px;
+  font-size: 26px;
   position: absolute;
   top:-15px;
   text-align: center;
@@ -225,7 +229,6 @@
   width: 160px;
   height: 220px;
   left:3%;
-  box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.5);
 }
 
 #person2 {
@@ -234,7 +237,6 @@
     left:22.6%;
     width: 160px;
     height: 220px;
-    box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.5);
 }
 
 #person3 {
@@ -243,7 +245,6 @@
     left:42%;
     width: 160px;
     height: 220px;
-    box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.5);
 }
 
 #person4 {
@@ -252,7 +253,6 @@
     left:61.4%;
     width: 160px;
     height: 220px;
-    box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.5);
 }
 
 #person5 {
@@ -261,7 +261,6 @@
     left:81%;
     width: 160px;
     height: 220px;
-    box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.5);
 }
 
 #person6 {
@@ -270,7 +269,6 @@
     left:3%;
     width: 160px;
     height: 220px;
-    box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.5);
 }
 
 #person7 {
@@ -279,9 +277,15 @@
     left:22.6%;
     width: 160px;
     height: 220px;
-    box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.5);
 }
 
+#person1:hover, #person2:hover, #person3:hover, #person4:hover, #person5:hover, #person6:hover, #person7:hover{
+  box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.5);  
+}
+
+#pperson1:hover, #pperson2:hover, #pperson3:hover, #pperson4:hover{
+  box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.5);  
+}
 
 #mimg1, #mimg2, #mimg3, #mimg4, #mimg5, #mimg6, #mimg7{
     display: block;
@@ -304,18 +308,16 @@
   position: absolute;
   top: 160px;
   left:3%;
-    width: 160px;
-    height: 220px;
-    box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.5);
+  width: 160px;
+  height: 220px;
 }
 
 #pperson2 {
   position: absolute;
   top: 160px;
   left:22.6%;
-    width: 160px;
-    height: 220px;
-    box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.5);
+  width: 160px;
+  height: 220px;
 }
 
 #pperson3 {
@@ -324,7 +326,6 @@
   left:42%;
     width: 160px;
     height: 220px;
-    box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.5);
 }
 
 #pperson4 {
@@ -333,7 +334,6 @@
   left:61.7%;
     width: 160px;
     height: 220px;
-    box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.5);
 }
 
 #phead1, #phead2, #phead3, #phead4{
@@ -357,7 +357,7 @@
     position: absolute;
     top: 24px;
     font-family: arial;
-    font-size: 21px;
+    font-size: 24px;
     width: inherit;
     text-align: center;
 }
@@ -366,7 +366,7 @@
     position: absolute;
     top: 24px;
     font-family: arial;
-    font-size: 21px;
+    font-size: 24px;
     width: inherit;
     text-align: center;
 }
@@ -376,7 +376,7 @@
     left: 23%;
     top: 200px;
     display: none;
-    border: 1px solid;
+    box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.5);
     height:549px;
     width: 940px;
 }
@@ -386,7 +386,7 @@
     left: 23%;
     top: 200px;
     display: block;
-    border: 1px solid;
+    box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.5);
     height:799px;
     width: 940px;
 }
