@@ -147,21 +147,6 @@ $(document).ready(function(){
     $("#drop4").click(function(){
       window.location.href = "aboutus.html"
     });
-//  $(".item1").focus(function() {
-//        $(".carousel-caption1").css("z-index","-1");
-//      });
-//});
-  /*$(".container").RSwiper();
-  $(".container").RSwiper({
-	  direction:'horizontal'
-	});
-  $(".container").RSwiper({
-	  speed:3000
-	});
-  $(".container").RSwiper({
-	  isPagination:true,
-	  isArrows:true
-	});*/
 });
 
 $(document).ready(function(){

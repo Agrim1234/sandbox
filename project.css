@@ -4,24 +4,25 @@
     font-family: Arial;
     height: 54px;
     width: 100%;
-    position: absolute;
-    top: 0px;
+    position: fixed;
+    top: 0%;
     left: 0%;
+    z-index: 5;
 }
 
 #logo{
-    position: absolute;
-    z-index: 3;
+    position: fixed;
+    z-index: 6;
     width: 52px;
     height: 40px;
 }
 
 .head3 {
-    position: absolute;
+    position: fixed;
     top: -3px;
     left: 6%;
     font-family: Arial;
-    z-index: 1;
+    z-index: 6;
     color: white;
 }
 
@@ -33,6 +34,7 @@
     overflow: hidden;
     background-color: white;
     color: black;
+    border-radius: 16px;
 }
 
 #drop2 {
@@ -43,6 +45,7 @@
     overflow: hidden;
     background-color: inherit;
     color:white;
+    border-radius: 16px;
 }
 
 #drop3 {
@@ -53,6 +56,7 @@
     float: right;
     overflow: hidden;
     background-color: inherit;
+    border-radius: 16px;
 }
 
 #drop4 {
@@ -63,6 +67,7 @@
     float: right;
     overflow: hidden;
     background-color: inherit;
+    border-radius: 16px;
 }
 
 .pdropdown .pdropbtn1{
@@ -97,18 +102,18 @@
 
 #curr{
     position: absolute;
-    width: inherit;
+    width: 100%;
     text-align: center;
     font-family: arial;
-    font-size: 21px;
+    font-size: 23px;
 }
 
 #pas{
     position: absolute;
-    width: inherit;
+    width: 100%;
     text-align: center;
     font-family: arial;
-    font-size: 21px;
+    font-size: 23px;
 }
 
 
@@ -222,24 +227,44 @@
     top: 200px;
     left: 24%;
     display: block;
-    width: 730px;
-    height: 1270px;
-    border: 1px solid;
-    border-color: #262626;
+    width: 70%;
+    height: 1870px;
+    box-shadow: 0px 3px 18px 0px rgba(0,0,0,0.4);
 }
 
 #past {
-    border: 1px solid;
-    border-color: #262626;
+    box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.3);
     position: absolute;
     top: 200px;
     left: 24%;
     display: none;
-    width: 730px;
-    height:870px;
+    width: 70%;
+    height:1270px;
 }
 
-#cplink1, #cplink2, #cplink3, #cplink4, #cplink5, #cplink6, #cplink7, #cplink8, #cplink9, #cplink10, #cplink11, #cplink12, #pplink1, #pplink2, #pplink3, #pplink4, #pplink5, #pplink6, #pplink7, #pplink8{
+#cplink1, #cplink2, #cplink3, #cplink4,  #cplink9, #cplink11, #pplink1, #pplink2, #pplink3, #pplink4{
+    cursor: pointer;
+    margin-top: 8%;
+    margin-left: 5%;
+    height: 40px;
+    width: 100px;
+    border-radius: 17px;
+    color: black;
+    background-color: inherit;
+    border: 1px solid;
+
+}
+
+#pplink5, #pplink6, #pplink7, #pplink8{
+    cursor: pointer;   
+}
+
+#cplink1:hover, #cplink2:hover, #cplink3:hover, #cplink4:hover,  #cplink9:hover, #cplink11:hover, #pplink1:hover, #pplink2:hover, #pplink3:hover, #pplink4:hover{
+    background-color: black;
+    color: white;
+}
+
+#cplink5, #cplink6, #cplink7, #cplink8,#cplink10,#cplink12,{
     cursor: pointer;
 }
 
@@ -303,8 +328,8 @@
 }
 
 #cpmimg1, #cpmimg2, #cpmimg3,#cpmimg4, #cpmimg5,#cpmimg6,#ppmimg1, #ppmimg2, #ppmimg3,#ppmimg4{
-    margin-top: 19px;
-    margin-left: 03%;
+    margin-top: 5%;
+    margin-left: 23%;
 }
 
 #ppicon1,#ppicon2,#ppicon3,#ppicon4,#cpicon1,#cpicon2,#cpicon3,#cpicon4,#cpicon5,#cpicon6{
@@ -316,168 +341,184 @@
 
 #cabout1 {
     position: absolute;
-    top: 10px;
-    left: 27%;
-    width: 400px;
+    top: 260px;
+    left: 9%;
+    width: 290px;
     font-family: arial;
-    font-size: 16.4px;
+    font-size: 16.7px;
 }
 
 #cabout2 {
     position: absolute;
-    top: 10px;
-    left: 27%;
-    width: 400px;
+    top: 260px;
+    left: 9%;
+    width: 290px;
     font-family: arial;
-    font-size: 16.4px;
+    font-size: 16.7px;
 }
 
 #cabout3 {
     position: absolute;
-    top: 10px;
-    left: 27%;
-    width: 400px;
+    top: 260px;
+    left: 9%;
+    width: 290px;
     font-family: arial;
-    font-size: 16.4px;
+    font-size: 16.7px;
 }
 
 #cabout4 {
     position: absolute;
-    top: 10px;
-    left: 27%;
-    width: 400px;
+    top: 260px;
+    left: 9%;
+    width: 290px;
     font-family: arial;
-    font-size: 16.4px;
+    font-size: 16.7px;
 }
 
 #cabout5 {
     position: absolute;
-    top: 10px;
-    left: 27%;
-    width: 400px;
+    top: 260px;
+    left: 9%;
+    width: 290px;
     font-family: arial;
-    font-size: 16.4px;
+    font-size: 16.7px;
 }
 
 #cabout6 {
     position: absolute;
-    top: 10px;
-    left: 27%;
-    width: 400px;
+    top: 260px;
+    left: 9%;
+    width: 290px;
     font-family: arial;
-    font-size: 16.4px;
+    font-size: 16.7px;
 }
 
 #cproject1 {
     position: absolute;
-    top: 119px;
-    left: 3%;
-    width: 600px;
-    height: 140px;
-    box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.3);
+    top: 140px;
+    left: 4%;
+    width: 350px;
+    height: 500px;
+    
 }
 
 #cproject2 {
     position: absolute;
-    top: 300px;
-    left: 3%;
-    width: 600px;
-    height: 140px;
-    box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.3);
+    top: 140px;
+    left: 56%;
+    width: 350px;
+    height: 500px;
 }
 
 #cproject3 {
     position: absolute;
-    top: 479px;
-    left: 3%;
-    width: 600px;
-    height: 140px;
-    box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.3);
+    top: 749px;
+    left: 4%;
+    width: 350px;
+    height: 500px;
+
 }
 
 #cproject4 {
     position: absolute;
-    top: 669px;
-    left: 3%;
-    width: 600px;
-    height: 140px;
-    box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.3);
+    top: 749px;
+    left: 56%;
+    width: 350px;
+    height: 500px;
+
 }
 
 #cproject5 {
     position: absolute;
-    top: 859px;
-    left: 3%;
-    width: 600px;
-    height: 140px;
-    box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.3);
+    top: 1329px;
+    left: 4%;
+    width: 350px;
+    height: 500px;
 }
 
 #cproject6 {
     position: absolute;
-    top: 1049px;
-    left: 3%;
-    width: 600px;
-    height: 140px;
-    box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.3);
+    top: 1329px;
+    left: 56%;
+    width: 350px;
+    height: 500px;
+}
+
+#cproject1:hover, #cproject2:hover, #cproject3:hover, #cproject4:hover, #cproject5:hover, #cproject6:hover{
+    box-shadow: 0px 4px 13px 0px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+#pproject1:hover, #pproject2:hover, #pproject3:hover, #pproject4:hover{
+    box-shadow: 0px 4px 13px 0px rgba(0,0,0,0.3);
+    border-radius: 10px;
 }
 
 #pabout1 {
     position: absolute;
-    top: 10px;
-    left: 27%;
+    top: 260px;
+    left: 9%;
+    width: 290px;
+    font-family: arial;
+    font-size: 16.7px;
 }
 
 #pabout2 {
     position: absolute;
-    top: 00px;
-    left: 27%;
+    top: 260px;
+    left: 9%;
+    width: 290px;
+    font-family: arial;
+    font-size: 16.7px;
+
 }
 
 #pabout3 {
     position: absolute;
-    top: 10px;
-    left: 27%;
+    top: 260px;
+    left: 9%;
+    width: 290px;
+    font-family: arial;
+    font-size: 16.7px;
 }
 
 #pabout4 {
     position: absolute;
-    top: 10px;
-    left: 27%;
+    top: 260px;
+    left: 9%;
+    width: 290px;
+    font-family: arial;
+    font-size: 16.7px;
 }
 
 #pproject1 {
     position: absolute;
     top: 119px;
-    left: 3%;
-    width: 600px;
-    height: 120px;
-    box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.3);
+    left: 4%;
+    width: 350px;
+    height: 470px;
 }
 
 #pproject2 {
     position: absolute;
-    top: 299px;
-    left: 3%;
-    width: 600px;
-    height: 120px;
-    box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.3);
+    top: 119px;
+    left: 56%;
+    width: 350px;
+    height: 470px;
 }
 
 #pproject3 {
     position: absolute;
-    top: 479px;
-    left: 3%;
-    width: 600px;
-    height: 120px;
-    box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.3);
+    top: 669px;
+    left: 4%;
+    width: 350px;
+    height: 470px;
 }
 
 #pproject4 {
     position: absolute;
-    top: 679px;
-    left: 3%;
-    width: 600px;
-    height: 120px;
-    box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.3);
+    top: 669px;
+    left: 56%;
+    width: 350px;
+    height: 470px;
 }

@@ -4,31 +4,34 @@
     font-family: Arial;
     height: 54px;
     width: 100%;
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: 0px;
+    z-index: 5;
+    
 }
 
 #logo{
-    position: absolute;
-    z-index: 3;
+    position: fixed;
+    z-index: 6;
     width: 52px;
     height: 40px;
 }
 
 .head3 {
-    position: absolute;
+    position: fixed;
     top: -3px;
     left: 6%;
     font-family: Arial;
-    z-index: 1;
+    z-index: 6;
     color: white
 }
 
 #drop1 {
     position: absolute;
     top: 4px;
-    left: 70.8%;
+    border-radius: 16px;
+    left: 70.5%;
     float: right;
     overflow: hidden;
     background-color: inherit;
@@ -37,16 +40,18 @@
 #drop2 {
     position: absolute;
     top: 4px;
-    left: 80.11%;
+    border-radius: 16px;
+    left: 80%;
     float: right;
     overflow: hidden;
-    background-color: white;
+    background-color: inherit;
 }
 
 #drop3 {
     position: absolute;
     top: 4px;
-    left: 61.9%;
+    left: 61%;
+    border-radius: 16px;
     float: right;
     overflow: hidden;
     background-color: inherit;
@@ -56,6 +61,7 @@
     position: absolute;
     top: 4px;
     left: 89%;
+    border-radius: 16px;
     float: right;
     overflow: hidden;
     background-color: inherit;
