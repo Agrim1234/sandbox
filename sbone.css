@@ -1,5 +1,5 @@
 .navbar {
-    z-index: 4;
+    z-index: 6;
     overflow: hidden;
     background-color: #262626;
     font-family: Arial;
@@ -13,7 +13,7 @@
 #logo{
     top: 2px;
     position: absolute;
-    z-index: 5;
+    z-index: 7;
     width: 59px;
     height: 48px;
 }
@@ -23,7 +23,7 @@
     top: -3px;
     left: 06%;
     font-family: Arial;
-    z-index: 5;
+    z-index: 7;
     color: white;
 }
 
@@ -88,7 +88,7 @@
     width: 700px;
     left: 04%;
     z-index: 1;
-    text-shadow: 0px 0px #262626;    
+    text-shadow: 0px 0px #262626;
 }
 
 #overhe1{
@@ -156,28 +156,19 @@
     text-shadow: 2px 2px 2px #262626;
 }
 
-#img1{
-    height: 100%;
-    width: 101.1%;
-    top: 54px;
-    position: absolute;
-    margin-bottom: -0.5%;
-    left: 0px;
-}
-
 #img2{
     height: 100%;
     width: 101.1%;
-    top:54px;
+    top: 0px;
     position: absolute;
     margin-bottom: -0.5%;
-    left: -1px;;
+    left: -1px;
 }
 
 #img3{
     height: 105%;
     width: 101.1%;
-  top: 54px;
+    top: 0px;
     position: absolute;
     margin-bottom: -0.5%;
     left: -.9%;
@@ -186,46 +177,10 @@
 #img4{
     height: 100%;
     width: 101.1%;
-    top: 54px;
+    top: 0px;
     position: absolute;
     margin-bottom: -0.5%;
     left: -.9%;
-}
-
-#i1{
-    position: fixed;
-    top: 301px;
-    left: 97.9%;
-    color: white;
-    font-size: 09px;
-    z-index: 4;
-}
-
-#i2{
-    position: fixed;
-    top: 275px;
-    left: 97.9%;
-    color: white;
-    font-size: 9px;
-    z-index: 4;
-}
-
-#i3{
-    position: fixed;
-    top: 327px;
-    left: 97.9%;
-    color: white;
-    font-size: 9px;
-    z-index: 4;
-}
-
-#i4{
-    position: fixed;
-    top: 353px;
-    left: 97.9%;
-    color: white;
-    font-size: 9px;
-    z-index: 4;
 }
 
 #btn2 {

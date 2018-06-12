@@ -4,7 +4,7 @@
   <link rel="stylesheet" type="text/css" href="sbone.css">
   <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  <link rel="stylesheet" media="screen" href="style.css">
 </head>
 <body>
   <img src="SandboxLogo.jpg" alt="currant" id="logo">
@@ -28,14 +28,20 @@
     </div>
   </div>
 
+  <div class="count-particles">
+    <span class="js-count-particles">--</span>
+  </div>
+
   <div id="fullpage">
       <div class="section">
-          <img src="photo1.png" alt="currant" id="img1">
+        <div id="particles-js">
+          <!--img src="photo1.png" alt="currant" id="img1"-->
         <div class="carousel-caption1">
           <br>
           <p id="overde1">Sandbox is BITS' Incubation Center which aims to foster
              innovative projects and ideas by providing state-of-the-art
               facilities and guidance to the students.</p>
+        </div>
         </div>
       </div>
       <div class="section">
@@ -67,13 +73,20 @@
       </div>
   </div>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
+  <script type="text/javascript" src="particles.js">
   </script>
-  <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js">
+  <script src="js/app.js">
+  </script>
+  <!-- stats.js -->
+  <script type="text/javascript" src="js/lib/stats.js">
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
   </script>
   <script type="text/javascript" src="sbone.js">
   </script>
   <script type="text/javascript" src="jquery.fullPage.js">
   </script>
+
+
 </body>
 </html>
