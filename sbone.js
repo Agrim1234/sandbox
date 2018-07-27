@@ -148,6 +148,24 @@ $(document).ready(function(){
       window.location.href = "aboutus.html"
     });
 
+    $(".accordion1").click(function(){
+      $(".panel1").slideToggle("slow");
+    });
+    $(".accordion2").click(function(){
+      $(".panel2").slideToggle("slow");
+    });
+    $(".accordion3").click(function(){
+      $(".panel3").slideToggle("slow");
+    });
+    $(".accordion4").click(function(){
+      $(".panel4").slideToggle("slow");
+    });
+    $(".accordion5").click(function(){
+      $(".panel5").slideToggle("slow");
+    });
+    $(".accordion6").click(function(){
+      $(".panel6").slideToggle("slow");
+    });
 });
 
 var count_particles, stats, update;
