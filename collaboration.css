@@ -27,36 +27,6 @@
     color: white
 }
 
-.accordion1, .accordion2, .accordion3, .accordion4, .accordion5, .accordion6 {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 90%;
-    font-size: 17px;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-}
-
-.active, .accordion1:hover, .accordion2:hover, .accordion3:hover, .accordion4:hover, .accordion5:hover, .accordion6:hover{
-    background-color: #ccc;
-}
-
-.panel1, .panel2, .panel3, .panel4, .panel5, .panel6 {
-    width: 90%;
-    font-size: 19px;;
-    font-family: arial;
-    color: black;
-    text-align: left;
-    margin-left: 5%;
-    text-shadow: 2px 2px 2px grey;
-    background-color: white;
-    display: none;
-    overflow: hidden;
-}
-
 #drop1 {
     position: absolute;
     top: 4px;
@@ -107,6 +77,36 @@
     background-color: inherit;
 }
 
+.accordion1, .accordion2{
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 90%;
+    font-size: 17px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.active, .accordion1:hover, .accordion2:hover{
+    background-color: #ccc;
+}
+
+.panel1, .panel2{
+    width: 90%;
+    font-size: 19px;;
+    font-family: arial;
+    color: black;
+    text-align: left;
+    margin-left: 5%;
+    text-shadow: 2px 2px 2px grey;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
 .dropdown .dropbtn1{
     font-size: 16px;
     border: none;
@@ -142,9 +142,9 @@
     border: none;
     outline: none;
     padding: 14px 16px;
-    background-color: inherit;
+    background-color: white;
     font: inherit;
-    color: white;
+    color: black;
 }
 
 .dropdown .dropbtn5{
@@ -152,9 +152,9 @@
     border: none;
     outline: none;
     padding: 14px 16px;
-    background-color: white;
+    background-color: inherit;
     font: inherit;
-    color: black;
+    color: white;
 }
 
 .dropdown:hover .dropbtn1{
@@ -182,7 +182,7 @@
     color: black;
 }
 
-.abo {
+.collab {
   text-shadow: 2px 2px 5px grey;
   position: absolute;
   width: 99.4%;
@@ -195,7 +195,7 @@
   color: white;
 }
 
-#aboutus{
+#collaboration{
   width: 100%;
   font-family: arial;
   font-size: 26px;

@@ -31,7 +31,7 @@
 #drop1 {
     position: absolute;
     top: 4px;
-    left: 70.8%;
+    left: 57.5%;
     float: right;
     overflow: hidden;
     border-radius: 16px;
@@ -40,7 +40,7 @@
 #drop2 {
     position: absolute;
     top: 4px;
-    left: 80.11%;
+    left: 67%;
     float: right;
     overflow: hidden;
     border-radius: 16px;
@@ -49,7 +49,7 @@
 #drop3 {
     position: absolute;
     top: 4px;
-    left: 61.5%;
+    left: 48%;
     float: right;
     overflow: hidden;
     border-radius: 16px;
@@ -58,7 +58,16 @@
 #drop4 {
     position: absolute;
     top: 4px;
-    left: 89%;
+    left: 76%;
+    float: right;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+#drop5 {
+    position: absolute;
+    top: 4px;
+    left: 90%;
     float: right;
     overflow: hidden;
     border-radius: 16px;
@@ -161,6 +170,7 @@
     height: 100%;
     width: 101.1%;
     top: 0px;
+    background: lightgray;
     position: absolute;
     margin-bottom: -0.5%;
     left: -1px;
@@ -170,6 +180,7 @@
     height: 105%;
     width: 101.1%;
     top: 0px;
+    background: yellow;
     position: absolute;
     margin-bottom: -0.5%;
     left: -.9%;
@@ -179,6 +190,7 @@
     height: 100%;
     width: 101.1%;
     top: 0px;
+    background: lightgray;
     position: absolute;
     margin-bottom: -0.5%;
     left: -.9%;

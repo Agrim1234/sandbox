@@ -1,3 +1,7 @@
+body{
+    background: lightgray;
+}
+
 .navbar {
     overflow: hidden;
     background-color: #262626;
@@ -30,7 +34,7 @@
     border-radius: 16px;
     position: absolute;
     top: 4px;
-    left: 70.8%;
+    left: 57.5%;
     float: right;
     overflow: hidden;
     background-color: inherit;
@@ -40,7 +44,7 @@
     border-radius: 16px;
     position: absolute;
     top: 4px;
-    left: 80.11%;
+    left: 67%;
     float: right;
     overflow: hidden;
     background-color: white;
@@ -50,7 +54,7 @@
     position: absolute;
     top: 4px;
     border-radius: 16px;
-    left: 61.5%;
+    left: 48%;
     float: right;
     overflow: hidden;
     background-color: inherit;
@@ -60,7 +64,17 @@
     position: absolute;
     top: 4px;
     border-radius: 16px;
-    left: 89%;
+    left: 76%;
+    float: right;
+    overflow: hidden;
+    background-color: inherit;
+}
+
+#drop5 {
+    position: absolute;
+    top: 4px;
+    border-radius: 16px;
+    left: 90%;
     float: right;
     overflow: hidden;
     background-color: inherit;
@@ -110,6 +124,17 @@
     cursor: pointer;
 }
 
+.dropdown .dropbtn5{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    color: white;
+    cursor: pointer;
+}
+
 .dropdown:hover .dropbtn1{
     background-color: white;
     color: black;
@@ -126,6 +151,11 @@
 }
 
 .dropdown:hover .dropbtn4{
+    background-color: white;
+    color: black;
+}
+
+.dropdown:hover .dropbtn5{
     background-color: white;
     color: black;
 }
@@ -204,7 +234,7 @@
 .cur {
   text-shadow: 2px 2px 5px grey;
   position: absolute;
-  width: 100%;
+  width: 99.4%;
   height: 60px;
   background: linear-gradient(to right, rgba(211, 211, 211, 0), rgba(26, 26, 26, 1), rgba(0, 255, 0, 0));
   top: 54px;
@@ -376,12 +406,14 @@
     left: 23%;
     top: 200px;
     display: none;
+    background: white;
     box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.5);
     height:549px;
     width: 940px;
 }
 
 .mcurrent{    
+    background: white;
     position: absolute;
     left: 23%;
     top: 200px;

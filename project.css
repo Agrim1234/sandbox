@@ -1,3 +1,7 @@
+body{
+    background: yellow;
+}
+
 .navbar {
     overflow: hidden;
     background-color: #262626;
@@ -29,7 +33,7 @@
 #drop1 {
     position: absolute;
     top: 4px;
-    left: 70.8%;
+    left: 57.5%;
     float: right;
     overflow: hidden;
     background-color: white;
@@ -40,7 +44,7 @@
 #drop2 {
     position: absolute;
     top: 4px;
-    left: 80.11%;
+    left: 67%;
     float: right;
     overflow: hidden;
     background-color: inherit;
@@ -52,7 +56,7 @@
     color:white;
     position: absolute;
     top: 4px;
-    left: 61.5%;
+    left: 48%;
     float: right;
     overflow: hidden;
     background-color: inherit;
@@ -63,7 +67,18 @@
     color: white;
     position: absolute;
     top: 4px;
-    left: 89%;
+    left: 76%;
+    float: right;
+    overflow: hidden;
+    background-color: inherit;
+    border-radius: 16px;
+}
+
+#drop5 {
+    color: white;
+    position: absolute;
+    top: 4px;
+    left: 90%;
     float: right;
     overflow: hidden;
     background-color: inherit;
@@ -91,6 +106,26 @@
 }
 
 .pdropdown .pdropbtn3{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    color: white;
+}
+
+.pdropdown .pdropbtn4{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    color: white;
+}
+
+.pdropdown .pdropbtn5{
     font-size: 16px;
     border: none;
     outline: none;
@@ -147,10 +182,16 @@
     color: black;
 }
 
+.pdropdown:hover .pdropbtn5{
+    background-color: white;
+    color: black;
+}
+
 .project {
+    
   text-shadow: 2px 2px 5px grey;
   position: absolute;
-  width: 100%;
+  width: 99.4%;
   height: 60px;
   background: linear-gradient(to right, rgba(211, 211, 211, 0), rgba(26, 26, 26, 1), rgba(0, 255, 0, 0));
   top: 54px;
@@ -161,12 +202,12 @@
 }
 
 #proj {
-    width: 100%;
+  width: 100%;
   font-family: arial;
   position: absolute;
   top:-15px;
-    text-align: center;
-  font-size: 26px;
+  text-align: center;
+    font-size: 26px;
 }
 
 .dropdown .dropbtn{
@@ -229,10 +270,12 @@
     display: block;
     width: 70%;
     height: 1870px;
+    background: white;
     box-shadow: 0px 3px 18px 0px rgba(0,0,0,0.4);
 }
 
 #past {
+    background: white;
     box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.3);
     position: absolute;
     top: 200px;

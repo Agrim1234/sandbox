@@ -10,6 +10,9 @@ $(document).ready(function(){
     window.location.href = "member.html"
   });
   $("#btn4").click(function(){
+    window.location.href = "collaboration.html"
+  });
+  $("#btn5").click(function(){
     window.location.href = "aboutus.html"
   });
 
@@ -145,25 +148,58 @@ $(document).ready(function(){
       window.location.href = "sbone.html"
     });
     $("#drop4").click(function(){
+      window.location.href = "collaboration.html"
+    });
+    $("#drop5").click(function(){
       window.location.href = "aboutus.html"
     });
 
     $(".accordion1").click(function(){
       $(".panel1").slideToggle("slow");
+      $(".panel2").slideUp("slow");
+      $(".panel3").slideUp("slow");
+      $(".panel4").slideUp("slow");
+      $(".panel5").slideUp("slow");
+      $(".panel6").slideUp("slow");
     });
     $(".accordion2").click(function(){
+      $(".panel1").slideUp("slow");
       $(".panel2").slideToggle("slow");
+      $(".panel3").slideUp("slow");
+      $(".panel4").slideUp("slow");
+      $(".panel5").slideUp("slow");
+      $(".panel6").slideUp("slow");
     });
     $(".accordion3").click(function(){
+      $(".panel1").slideUp("slow");
+      $(".panel2").slideUp("slow");
       $(".panel3").slideToggle("slow");
+      $(".panel4").slideUp("slow");
+      $(".panel5").slideUp("slow");
+      $(".panel6").slideUp("slow");
     });
     $(".accordion4").click(function(){
+      $(".panel1").slideUp("slow");
+      $(".panel2").slideUp("slow");
+      $(".panel3").slideUp("slow");
       $(".panel4").slideToggle("slow");
+      $(".panel5").slideUp("slow");
+      $(".panel6").slideUp("slow");
     });
     $(".accordion5").click(function(){
+      $(".panel1").slideUp("slow");
+      $(".panel2").slideUp("slow");
+      $(".panel3").slideUp("slow");
+      $(".panel4").slideUp("slow");
       $(".panel5").slideToggle("slow");
+      $(".panel6").slideUp("slow");
     });
     $(".accordion6").click(function(){
+      $(".panel1").slideUp("slow");
+      $(".panel2").slideUp("slow");
+      $(".panel3").slideUp("slow");
+      $(".panel4").slideUp("slow");
+      $(".panel5").slideUp("slow");
       $(".panel6").slideToggle("slow");
     });
 });
