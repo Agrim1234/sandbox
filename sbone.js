@@ -1,5 +1,9 @@
 $(document).ready(function(){
 
+  $("#logo").click(function(){
+    window.location.href = "sbone.html"
+  });
+
   $("#btn1").click(function(){
     window.location.href = "overview.html"
   });
@@ -90,6 +94,26 @@ $(document).ready(function(){
   $("#cplink12").click(function(){
     window.location.href = "imitatorobotics.html"
   });
+
+  $("#cpt1").click(function(){
+    window.location.href = "reglove.html"
+  });
+  $("#cpt2").click(function(){
+    window.location.href = "umams.html"
+  });
+  $("#cpt3").click(function(){
+    window.location.href = "bipedrobot.html"
+  });
+  $("#cpt4").click(function(){
+    window.location.href = "bitsecure.html"
+  });
+  $("#cpt5").click(function(){
+    window.location.href = "humanarmrobot.html"
+  });
+  $("#cpt6").click(function(){
+    window.location.href = "imitatorobotics.html"
+  });
+
 
   $("#pplink1").click(function(){
     $(".ppmodal1").css("display", "block");

@@ -61,7 +61,7 @@
     position: absolute;
     top: 4px;
     border-radius: 16px;
-    left: 57.5%;
+    left: 66.7%;
     float: right;
     overflow: hidden;
     background-color: inherit;
@@ -71,7 +71,7 @@
     position: absolute;
     top: 4px;
     border-radius: 16px;
-    left: 67%;
+    left: 90%;
     float: right;
     overflow: hidden;
     background-color: inherit;
@@ -100,7 +100,7 @@
 #drop5 {
     position: absolute;
     top: 4px;
-    left: 90%;
+    left: 57.5%;
     border-radius: 16px;
     float: right;
     overflow: hidden;
