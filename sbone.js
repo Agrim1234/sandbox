@@ -3,6 +3,9 @@ $(document).ready(function(){
   $("#logo").click(function(){
     window.location.href = "sbone.html"
   });
+  $(".head3").click(function(){
+    window.location.href = "sbone.html"
+  });
 
   $("#btn1").click(function(){
     window.location.href = "overview.html"
