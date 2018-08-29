@@ -1,3 +1,7 @@
+body{
+    background: url("back.png");
+}
+
 .hvr-underline-from-center {
   display: inline-block;
   vertical-align: middle;
@@ -8,6 +12,7 @@
   font-size: 16px;
   color: white;
   border: none;
+    font-family: Arial;
     cursor: pointer;
   background-color: inherit;
 }
@@ -68,9 +73,11 @@
     top: 4px;
     left: 66.7%;
     float: right;
+    font-family: Arial;
     overflow: hidden;
     background-color: inherit;
     color: white;
+    font-family: arial;
     border-bottom-color: white;
     border-bottom: 2px solid;
     border-radius: 1px;
@@ -121,13 +128,17 @@
 }
 
 .pdropdown .pdropbtn1{
+    display: inline-block;
+    font-family: Arial;
     font-size: 16px;
     border: none;
     outline: none;
-    padding: 14px 16px;
+    width: 110px;
+    height: 45px;
+    padding: 15px 6px;
     background-color: inherit;
     font: inherit;
-    color: black;
+    color: white;
 }
 
 .pdropdown .pdropbtn2{
@@ -195,11 +206,6 @@
     background-color: inherit;
     font: inherit;
     color: white;
-}
-
-.pdropdown:hover .pdropbtn1{
-    background-color: white;
-    color: black;
 }
 
 .pdropdown:hover .pdropbtn2{
@@ -282,11 +288,9 @@
     display: block;
     width: 70%;
     height: 1870px;
-    background: white;
 }
 
 #past {
-    background: white;
     position: absolute;
     top: 200px;
     left: 24%;
@@ -295,7 +299,8 @@
     height:1270px;
 }
 
-#cplink1, #cplink2, #cplink3, #cplink4,  #cplink9, #cplink11, #pplink1, #pplink2, #pplink3, #pplink4{
+#cplink1, #cplink2, #cplink3, #cplink4,  #cplink9, #cplink11, #pplink1, #pplink2, #pplink3, #pplink4
+,#cplink14, #cplink16, #cplink18, #cplink20,  #cplink22, #cplink24{
     cursor: pointer;
     margin-top: 8%;
     margin-left: 5%;
@@ -312,16 +317,18 @@
     cursor: pointer;   
 }
 
-#cplink1:hover, #cplink2:hover, #cplink3:hover, #cplink4:hover,  #cplink9:hover, #cplink11:hover, #pplink1:hover, #pplink2:hover, #pplink3:hover, #pplink4:hover{
+#cplink1:hover, #cplink2:hover, #cplink3:hover, #cplink4:hover,  #cplink9:hover, #cplink11:hover, #pplink1:hover, #pplink2:hover
+, #pplink3:hover, #pplink4:hover,#cplink14:hover, #cplink16:hover, #cplink18:hover, #cplink20:hover,  #cplink22:hover, #cplink24:hover{
     background-color: black;
     color: white;
 }
 
-#cplink5, #cplink6, #cplink7, #cplink8,#cplink10,#cplink12,{
+#cplink5, #cplink6, #cplink7, #cplink8,#cplink10,#cplink12,#cplink13, #cplink15, #cplink17, #cplink19,#cplink21,#cplink23{
     cursor: pointer;
 }
 
-.cmodal1, .cmodal2, .cmodal3, .cmodal4, .cmodal5,.cmodal6, .ppmodal1, .ppmodal2, .ppmodal3, .ppmodal4 {
+.cmodal1, .cmodal2, .cmodal3, .cmodal4, .cmodal5,.cmodal6, .ppmodal1, .ppmodal2, .ppmodal3, .ppmodal4, .cmodal7, .cmodal8, .cmodal9,
+ .cmodal10, .cmodal11,.cmodal12{
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 10; /* Sit on top */
@@ -335,7 +342,8 @@
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
-.cmodal-content1, .cmodal-content2, .cmodal-content3, .cmodal-content4, .cmodal-content5, .cmodal-content6, .ppmodal-content1, .ppmodal-content2, .ppmodal-content3, .ppmodal-content4{
+.cmodal-content1, .cmodal-content2, .cmodal-content3, .cmodal-content4, .cmodal-content5, .cmodal-content6, .ppmodal-content1, .ppmodal-content2,
+.ppmodal-content3, .ppmodal-content4, .cmodal-content7, .cmodal-content8, .cmodal-content9, .cmodal-content10, .cmodal-content11, .cmodal-content12{
     background-color: #fefefe;
     margin: auto;
     padding: 20px;
@@ -344,17 +352,25 @@
     height: 500px;
 }
 
-.cmid1, .cmid2, .cmid3, .cmid4, .cmid5, .cmid6,.ppmid1, .ppmid2, .ppmid3, .ppmid4{
+.cmid1, .cmid2, .cmid3, .cmid4, .cmid5, .cmid6,.ppmid1, .ppmid2, .ppmid3, .ppmid4, .cmid7, .cmid8, .cmid9, .cmid10, .cmid11, .cmid12{
     position: absolute;
-    width: 75%;
+    width: 76%;
     left: 13%;
+    top: 50%;
     text-align: justify;
     top: 290px;
     font-family: arial;
     font-size: 17px;
 }
 
-#cpt1, #cpt2, #cpt3, #cpt4,#cpt5, #cpt6, #pph1, #pph2, #pph3,#pph4{
+.clist1, .clist2, .clist3, .clist4, .clist5, .clist6{
+    position: absolute;
+    top: 54%;
+    width: 72%;
+    left: 12%;
+}
+
+#cpt1, #cpt2, #cpt3, #cpt4,#cpt5, #cpt6, #pph1, #pph2, #pph3,#pph4, #cpt7, #cpt8, #cpt9, #cpt10,#cpt11, #cpt12{
     position: absolute;
     top: 140px;
     left: 10%;
@@ -364,7 +380,7 @@
     text-align: center;
 }
 
-#cps1, #cps2, #cps3,#cps4, #cps5,#cps6,#pps1, #pps2, #pps3,#pps4{
+#cps1, #cps2, #cps3,#cps4, #cps5,#cps6,#pps1, #pps2, #pps3,#pps4, #cps7, #cps8, #cps9,#cps10, #cps11, #cps12{
     position: absolute;
     top: 238px;
     left: 10%;
@@ -374,18 +390,20 @@
     font-size: 21px;
 }
 
-#cpimg1, #cpimg2, #cpimg3,#cpimg4, #cpimg5,#cpimg6,#ppimg1, #ppimg2, #ppimg3,#ppimg4{
+#cpimg1, #cpimg2, #cpimg3,#cpimg4, #cpimg5,#cpimg6,#ppimg1, #ppimg2, #ppimg3,#ppimg4, #cpimg7, #cpimg8, #cpimg9,#cpimg10, #cpimg11,#cpimg12{
     position: absolute;
     top: 130px;
     left: 22%;
 }
 
-#cpmimg1, #cpmimg2, #cpmimg3,#cpmimg4, #cpmimg5,#cpmimg6,#ppmimg1, #ppmimg2, #ppmimg3,#ppmimg4{
+#cpmimg1, #cpmimg2, #cpmimg3,#cpmimg4, #cpmimg5,#cpmimg6,#ppmimg1, #ppmimg2, #ppmimg3,#ppmimg4, #cpmimg7, #cpmimg8, #cpmimg9,#cpmimg10,
+#cpmimg11,#cpmimg12{
     margin-top: 5%;
     margin-left: 23%;
 }
 
-#ppicon1,#ppicon2,#ppicon3,#ppicon4,#cpicon1,#cpicon2,#cpicon3,#cpicon4,#cpicon5,#cpicon6{
+#ppicon1,#ppicon2,#ppicon3,#ppicon4,#cpicon1,#cpicon2,#cpicon3,#cpicon4,#cpicon5,#cpicon6
+,#cpicon7,#cpicon8,#cpicon9,#cpicon10,#cpicon11,#cpicon12{
     position: absolute;
     top: 80px;
     left: 85%;
@@ -447,12 +465,67 @@
     font-size: 16.7px;
 }
 
+#cabout7 {
+    position: absolute;
+    top: 260px;
+    left: 9%;
+    width: 290px;
+    font-family: arial;
+    font-size: 16.7px;
+}
+
+#cabout8 {
+    position: absolute;
+    top: 260px;
+    left: 9%;
+    width: 290px;
+    font-family: arial;
+    font-size: 16.7px;
+}
+
+#cabout9 {
+    position: absolute;
+    top: 260px;
+    left: 9%;
+    width: 290px;
+    font-family: arial;
+    font-size: 16.7px;
+}
+
+#cabout10 {
+    position: absolute;
+    top: 260px;
+    left: 9%;
+    width: 290px;
+    font-family: arial;
+    font-size: 16.7px;
+}
+
+#cabout11 {
+    position: absolute;
+    top: 260px;
+    left: 9%;
+    width: 290px;
+    font-family: arial;
+    font-size: 16.7px;
+}
+
+#cabout12 {
+    position: absolute;
+    top: 260px;
+    left: 9%;
+    width: 290px;
+    font-family: arial;
+    font-size: 16.7px;
+}
+
+
 #cproject1 {
     position: absolute;
     top: 140px;
     left: 4%;
     width: 350px;
-    height: 500px;
+    height: 530px;
     
 }
 
@@ -461,7 +534,7 @@
     top: 140px;
     left: 56%;
     width: 350px;
-    height: 500px;
+    height: 530px;
 }
 
 #cproject3 {
@@ -469,7 +542,7 @@
     top: 749px;
     left: 4%;
     width: 350px;
-    height: 500px;
+    height: 530px;
 
 }
 
@@ -478,7 +551,7 @@
     top: 749px;
     left: 56%;
     width: 350px;
-    height: 500px;
+    height: 530px;
 
 }
 
@@ -487,7 +560,7 @@
     top: 1329px;
     left: 4%;
     width: 350px;
-    height: 500px;
+    height: 530px;
 }
 
 #cproject6 {
@@ -495,10 +568,59 @@
     top: 1329px;
     left: 56%;
     width: 350px;
-    height: 500px;
+    height: 530px;
 }
 
-#cproject1:hover, #cproject2:hover, #cproject3:hover, #cproject4:hover, #cproject5:hover, #cproject6:hover{
+#cproject7 {
+    position: absolute;
+    top: 103%;
+    left: 4%;
+    width: 350px;
+    height: 530px;
+}
+
+#cproject8 {
+    position: absolute;
+    top: 103%;
+    left: 56%;
+    width: 350px;
+    height: 530px;
+}
+
+#cproject9 {
+    position: absolute;
+    top: 136%;
+    left: 4%;
+    width: 350px;
+    height: 530px;
+}
+
+#cproject10 {
+    position: absolute;
+    top: 136%;
+    left: 56%;
+    width: 350px;
+    height: 530px;
+}
+
+#cproject11 {
+    position: absolute;
+    top: 170%;
+    left: 4%;
+    width: 350px;
+    height: 530px;
+}
+
+#cproject12 {
+    position: absolute;
+    top: 170%;
+    left: 56%;
+    width: 350px;
+    height: 530px;
+}
+
+
+#cproject1:hover, #cproject2:hover, #cproject3:hover, #cproject4:hover, #cproject5:hover, #cproject6:hover,#cproject7:hover, #cproject8:hover, #cproject9:hover, #cproject10:hover, #cproject11:hover, #cproject12:hover{
     box-shadow: 0px 4px 13px 0px rgba(0,0,0,0.3);
     cursor: pointer;
     border-radius: 10px;

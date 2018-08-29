@@ -60,6 +60,25 @@ $(document).ready(function(){
     $(".cmodal6").css("display", "block");
   });
 
+  $("#cplink14").click(function(){
+    $(".cmodal7").css("display", "block");
+  });
+  $("#cplink16").click(function(){
+    $(".cmodal8").css("display", "block");
+  });
+  $("#cplink18").click(function(){
+    $(".cmodal9").css("display", "block");
+  });
+  $("#cplink20").click(function(){
+    $(".cmodal10").css("display", "block");
+  });
+  $("#cplink22").click(function(){
+    $(".cmodal11").css("display", "block");
+  });
+  $("#cplink24").click(function(){
+    $(".cmodal12").css("display", "block");
+  });
+
   $("#cpicon1").click(function(){
     $(".cmodal1").css("display", "none");
   });
@@ -79,6 +98,26 @@ $(document).ready(function(){
     $(".cmodal6").css("display", "none");
   });
 
+  $("#cpicon7").click(function(){
+    $(".cmodal7").css("display", "none");
+  });
+  $("#cpicon8").click(function(){
+    $(".cmodal8").css("display", "none");
+  });
+  $("#cpicon9").click(function(){
+    $(".cmodal9").css("display", "none");
+  });
+  $("#cpicon10").click(function(){
+    $(".cmodal10").css("display", "none");
+  });
+  $("#cpicon11").click(function(){
+    $(".cmodal11").css("display", "none");
+  });
+  $("#cpicon12").click(function(){
+    $(".cmodal12").css("display", "none");
+  });
+
+
   $("#cplink5").click(function(){
     window.location.href = "reglove.html"
   });
@@ -97,6 +136,25 @@ $(document).ready(function(){
   $("#cplink12").click(function(){
     window.location.href = "imitatorobotics.html"
   });
+  $("#cplink13").click(function(){
+    window.location.href = "incubator.html"
+  });
+  $("#cplink15").click(function(){
+    window.location.href = "teslacoil.html"
+  });
+  $("#cplink17").click(function(){
+    window.location.href = "swarmbots.html"
+  });
+  $("#cplink19").click(function(){
+    window.location.href = "solaruav.html"
+  });
+  $("#cplink21").click(function(){
+    window.location.href = "handy.html"
+  });
+  $("#cplink23").click(function(){
+    window.location.href = "modbots.html"
+  });
+  
 
   $("#cpt1").click(function(){
     window.location.href = "reglove.html"
@@ -115,6 +173,24 @@ $(document).ready(function(){
   });
   $("#cpt6").click(function(){
     window.location.href = "imitatorobotics.html"
+  });
+  $("#cpt7").click(function(){
+    window.location.href = "incubator.html"
+  });
+  $("#cpt8").click(function(){
+    window.location.href = "teslacoil.html"
+  });
+  $("#cpt9").click(function(){
+    window.location.href = "swarmbots.html"
+  });
+  $("#cpt10").click(function(){
+    window.location.href = "solaruav.html"
+  });
+  $("#cpt11").click(function(){
+    window.location.href = "handy.html"
+  });
+  $("#cpt12").click(function(){
+    window.location.href = "modbots.html"
   });
 
 

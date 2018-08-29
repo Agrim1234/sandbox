@@ -7,6 +7,7 @@
   border-radius: 0px;;
   font-size: 16px;
   color: white;
+    font-family: Arial;
   border: none;
     cursor: pointer;
   background-color: inherit;
@@ -128,13 +129,14 @@
 }
 
 .dropdown .dropbtn2{
-    font-size: 16px;
+    font-size: 14px;
     border: none;
     outline: none;
-    padding: 14px 16px;
+    height: 45px;
+    padding: 15px 6px;
     background-color: inherit;
     font: inherit;
-    color: black;
+    color: white;
     cursor: pointer;
 }
 
@@ -169,16 +171,6 @@
     font: inherit;
     color: white;
     cursor: pointer;
-}
-
-.dropdown:hover .dropbtn1{
-    background-color: white;
-    color: black;
-}
-
-.dropdown:hover .dropbtn2{
-    background-color: white;
-    color: black;
 }
 
 .dropdown:hover .dropbtn3{
