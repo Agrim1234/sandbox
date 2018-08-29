@@ -341,7 +341,9 @@
   box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.5);  
 }
 
-#pperson1:hover, #pperson2:hover, #pperson3:hover, #pperson4:hover{
+
+
+#pperson1:hover, #pperson2:hover, #pperson3:hover, #pperson4:hover,#pperson5:hover, #pperson6:hover, #pperson7:hover, #pperson8:hover, #pperson9:hover{
   box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.5);  
 }
 
@@ -389,6 +391,46 @@
 #pperson4 {
   position: absolute;
   top: 160px;
+  left:61.7%;
+    width: 160px;
+    height: 220px;
+}
+
+#pperson5 {
+  position: absolute;
+  top: 160px;
+  left:81%;
+  width: 160px;
+  height: 220px;
+}
+
+#pperson6 {
+  position: absolute;
+  top: 79%;
+  left:22.6%;
+  width: 160px;
+  height: 220px;
+}
+
+#pperson7 {
+  position: absolute;
+  top: 79%;
+  left:42%;
+    width: 160px;
+    height: 220px;
+}
+
+#pperson8 {
+  position: absolute;
+  top: 79%;
+  left:3%;
+    width: 160px;
+    height: 220px;
+}
+
+#pperson9 {
+  position: absolute;
+  top: 79%;
   left:61.7%;
     width: 160px;
     height: 220px;
