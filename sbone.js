@@ -264,6 +264,10 @@ $(document).ready(function(){
       $(".panel4").slideUp("slow");
       $(".panel5").slideUp("slow");
       $(".panel6").slideUp("slow");
+      $(".panel7").slideUp("slow");
+      $(".panel8").slideUp("slow");
+      $(".panel9").slideUp("slow");
+      $(".panel10").slideUp("slow");
     });
     $(".accordion2").click(function(){
       $(".panel1").slideUp("slow");
@@ -272,6 +276,10 @@ $(document).ready(function(){
       $(".panel4").slideUp("slow");
       $(".panel5").slideUp("slow");
       $(".panel6").slideUp("slow");
+      $(".panel7").slideUp("slow");
+      $(".panel8").slideUp("slow");
+      $(".panel9").slideUp("slow");
+      $(".panel10").slideUp("slow");
     });
     $(".accordion3").click(function(){
       $(".panel1").slideUp("slow");
@@ -280,6 +288,10 @@ $(document).ready(function(){
       $(".panel4").slideUp("slow");
       $(".panel5").slideUp("slow");
       $(".panel6").slideUp("slow");
+      $(".panel7").slideUp("slow");
+      $(".panel8").slideUp("slow");
+      $(".panel9").slideUp("slow");
+      $(".panel10").slideUp("slow");
     });
     $(".accordion4").click(function(){
       $(".panel1").slideUp("slow");
@@ -288,6 +300,10 @@ $(document).ready(function(){
       $(".panel4").slideToggle("slow");
       $(".panel5").slideUp("slow");
       $(".panel6").slideUp("slow");
+      $(".panel7").slideUp("slow");
+      $(".panel8").slideUp("slow");
+      $(".panel9").slideUp("slow");
+      $(".panel10").slideUp("slow");
     });
     $(".accordion5").click(function(){
       $(".panel1").slideUp("slow");
@@ -296,6 +312,10 @@ $(document).ready(function(){
       $(".panel4").slideUp("slow");
       $(".panel5").slideToggle("slow");
       $(".panel6").slideUp("slow");
+      $(".panel7").slideUp("slow");
+      $(".panel8").slideUp("slow");
+      $(".panel9").slideUp("slow");
+      $(".panel10").slideUp("slow");
     });
     $(".accordion6").click(function(){
       $(".panel1").slideUp("slow");
@@ -304,6 +324,58 @@ $(document).ready(function(){
       $(".panel4").slideUp("slow");
       $(".panel5").slideUp("slow");
       $(".panel6").slideToggle("slow");
+      $(".panel7").slideUp("slow");
+      $(".panel8").slideUp("slow");
+      $(".panel9").slideUp("slow");
+      $(".panel10").slideUp("slow");
+    });
+    $(".accordion7").click(function(){
+      $(".panel1").slideUp("slow");
+      $(".panel2").slideUp("slow");
+      $(".panel3").slideUp("slow");
+      $(".panel4").slideUp("slow");
+      $(".panel5").slideUp("slow");
+      $(".panel6").slideUp("slow");
+      $(".panel7").slideToggle("slow");
+      $(".panel8").slideUp("slow");
+      $(".panel9").slideUp("slow");
+      $(".panel10").slideUp("slow");
+    });
+    $(".accordion8").click(function(){
+      $(".panel1").slideUp("slow");
+      $(".panel2").slideUp("slow");
+      $(".panel3").slideUp("slow");
+      $(".panel4").slideUp("slow");
+      $(".panel5").slideUp("slow");
+      $(".panel6").slideUp("slow");
+      $(".panel7").slideUp("slow");
+      $(".panel8").slideToggle("slow");
+      $(".panel9").slideUp("slow");
+      $(".panel10").slideUp("slow");
+    });
+    $(".accordion9").click(function(){
+      $(".panel1").slideUp("slow");
+      $(".panel2").slideUp("slow");
+      $(".panel3").slideUp("slow");
+      $(".panel4").slideUp("slow");
+      $(".panel5").slideUp("slow");
+      $(".panel6").slideUp("slow");
+      $(".panel7").slideUp("slow");
+      $(".panel8").slideUp("slow");
+      $(".panel9").slideToggle("slow");
+      $(".panel10").slideUp("slow");
+    });
+    $(".accordion10").click(function(){
+      $(".panel1").slideUp("slow");
+      $(".panel2").slideUp("slow");
+      $(".panel3").slideUp("slow");
+      $(".panel4").slideUp("slow");
+      $(".panel5").slideUp("slow");
+      $(".panel6").slideUp("slow");
+      $(".panel7").slideUp("slow");
+      $(".panel8").slideUp("slow");
+      $(".panel9").slideUp("slow");
+      $(".panel10").slideToggle("slow");
     });
 });
 

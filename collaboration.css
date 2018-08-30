@@ -1,3 +1,7 @@
+body{
+    background: url("sandyyellow.png");
+}
+
 .hvr-underline-from-center {
   display: inline-block;
   vertical-align: middle;
@@ -119,8 +123,8 @@
 }
 
 .accordion1{
-    margin-top: 9%;
-    margin-left: 3%;
+    margin-top: 50%;
+    margin-left: 5%;
     background-color: #eee;
     color: #444;
     cursor: pointer;
@@ -135,7 +139,7 @@
 
 .accordion2{
     margin-top: 0.5%;
-    margin-left: 3%;
+    margin-left: 5%;
     background-color: #eee;
     color: #444;
     cursor: pointer;
@@ -157,9 +161,8 @@
     font-size: 19px;;
     font-family: arial;
     color: black;
-    text-align: left;
-    margin-left: 4%;
-    background-color: white;
+    text-align: justify;
+    margin-left: 6%;
     display: none;
     overflow: hidden;
 }
@@ -235,4 +238,12 @@
 .dropdown:hover .dropbtn5{
     background-color: white;
     color: black;
+}
+
+.desc{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 20%;
+    text-align: justify;
 }

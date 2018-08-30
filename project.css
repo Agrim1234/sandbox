@@ -235,6 +235,7 @@ body{
     left: 06.8%;
     font-size: 16px;
     border: none;
+    border-radius: 12%;
     outline: none;
     color: white;
     padding: 14px 16px;
@@ -252,6 +253,7 @@ body{
     position: absolute;
     top: 240px;
     left: 6.8%;
+    cursor: pointer;
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -363,7 +365,7 @@ body{
     font-size: 17px;
 }
 
-.clist1, .clist2, .clist3, .clist4, .clist5, .clist6{
+.clist1, .clist2, .clist3, .clist4, .clist5, .clist6, .clist7{
     position: absolute;
     top: 54%;
     width: 72%;
@@ -691,6 +693,10 @@ body{
     left: 4%;
     width: 350px;
     height: 470px;
+}
+
+#desc1,#desc2,#desc3,#desc4,#desc5,#desc6,#desc7,#desc8,#desc9,#desc10,#desc11,#desc12{
+    text-align: justify;
 }
 
 #pproject4 {

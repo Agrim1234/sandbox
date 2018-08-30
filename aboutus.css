@@ -1,3 +1,7 @@
+body{
+    background: url("lightbrown.png");
+}
+
 .hvr-underline-from-center {
   display: inline-block;
   vertical-align: middle;
@@ -107,7 +111,7 @@
     color: black;
     text-align: left;
     margin-left: 4%;
-    background-color: white;
+    
     display: none;
     overflow: hidden;
 }
