@@ -1,14 +1,14 @@
 $(document).ready(function(){
 
   $("#logo").click(function(){
-    window.location.href = "sbone.html"
+    window.location.href = "index.html"
   });
   $(".head3").click(function(){
-    window.location.href = "sbone.html"
+    window.location.href = "index.html"
   });
 
   $("#btn1").click(function(){
-    window.location.href = "overview.html"
+    window.location.href = "index.html"
   });
   $("#btn2").click(function(){
     window.location.href = "project.html"
@@ -17,7 +17,7 @@ $(document).ready(function(){
     window.location.href = "member.html"
   });
   $("#btn4").click(function(){
-    window.location.href = "collaboration.html"
+    window.location.href = "aboutus.html"
   });
   $("#btn5").click(function(){
     window.location.href = "aboutus.html"
@@ -248,7 +248,7 @@ $(document).ready(function(){
       window.location.href = "member.html"
     });
     $("#drop3").click(function(){
-      window.location.href = "sbone.html"
+      window.location.href = "index.html"
     });
     $("#drop4").click(function(){
       window.location.href = "collaboration.html"

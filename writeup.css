@@ -1,3 +1,7 @@
+body{
+  background: url("sandyyellow.png")
+}
+
 .bsecure {
   text-shadow: 2px 2px 5px grey;
   position: absolute;

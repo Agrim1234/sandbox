@@ -12,7 +12,7 @@ body{
   font-size: 16px;
   color: white;
   border: none;
-    font-family: Arial;
+  font-family: Raleway;
     cursor: pointer;
   background-color: inherit;
 }
@@ -183,10 +183,10 @@ body{
 
 #curr{
     position: absolute;
-    width: 100%;
+    width: 77%;
     text-align: center;
-    font-family: arial;
-    font-size: 23px;
+    font-family: Raleway;
+    font-size: 25px;
 }
 
 #pas{
@@ -285,7 +285,7 @@ body{
 
 #current {
     position: absolute;
-    top: 200px;
+    top: 24%;
     left: 24%;
     display: block;
     width: 70%;
@@ -352,16 +352,17 @@ body{
     border: 1px solid #888;
     width: 80%;
     height: 500px;
+    font-family: Raleway;
 }
 
 .cmid1, .cmid2, .cmid3, .cmid4, .cmid5, .cmid6,.ppmid1, .ppmid2, .ppmid3, .ppmid4, .cmid7, .cmid8, .cmid9, .cmid10, .cmid11, .cmid12{
     position: absolute;
     width: 76%;
     left: 13%;
+    font-family: Raleway;
     top: 50%;
     text-align: justify;
     top: 290px;
-    font-family: arial;
     font-size: 17px;
 }
 
@@ -370,6 +371,7 @@ body{
     top: 54%;
     width: 72%;
     left: 12%;
+    font-family: Raleway;
 }
 
 #cpt1, #cpt2, #cpt3, #cpt4,#cpt5, #cpt6, #pph1, #pph2, #pph3,#pph4, #cpt7, #cpt8, #cpt9, #cpt10,#cpt11, #cpt12{
@@ -377,7 +379,8 @@ body{
     top: 140px;
     left: 10%;
     width: 80%;
-    font-family: arial;
+    font-weight: bolder;
+    font-family: Raleway;
     font-size: 21px;
     text-align: center;
 }
@@ -385,10 +388,10 @@ body{
 #cps1, #cps2, #cps3,#cps4, #cps5,#cps6,#pps1, #pps2, #pps3,#pps4, #cps7, #cps8, #cps9,#cps10, #cps11, #cps12{
     position: absolute;
     top: 238px;
+    font-family: Raleway;
     left: 10%;
     width: 80%;
     text-align: center;
-    font-family: arial;
     font-size: 21px;
 }
 
@@ -400,8 +403,9 @@ body{
 
 #cpmimg1, #cpmimg2, #cpmimg3,#cpmimg4, #cpmimg5,#cpmimg6,#ppmimg1, #ppmimg2, #ppmimg3,#ppmimg4, #cpmimg7, #cpmimg8, #cpmimg9,#cpmimg10,
 #cpmimg11,#cpmimg12{
-    margin-top: 5%;
-    margin-left: 23%;
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 96%;
 }
 
 #ppicon1,#ppicon2,#ppicon3,#ppicon4,#cpicon1,#cpicon2,#cpicon3,#cpicon4,#cpicon5,#cpicon6
@@ -413,30 +417,34 @@ body{
     box-shadow: 0px 4px 13px 0px rgba(0,0,0,0.3);
 }
 
+#head1, #head2, #head3, #head4, #head5,#head6, #head7, #head8, #head9, #head10,#head11, #head12{
+    font-weight: bold;
+}
+
 #cabout1 {
+    font-family: Raleway;
     position: absolute;
     top: 260px;
     left: 9%;
     width: 290px;
-    font-family: arial;
     font-size: 16.7px;
 }
 
 #cabout2 {
+    font-family: Raleway;
     position: absolute;
     top: 260px;
     left: 9%;
     width: 290px;
-    font-family: arial;
     font-size: 16.7px;
 }
 
 #cabout3 {
+    font-family: Raleway;
     position: absolute;
     top: 260px;
     left: 9%;
     width: 290px;
-    font-family: arial;
     font-size: 16.7px;
 }
 
@@ -445,7 +453,7 @@ body{
     top: 260px;
     left: 9%;
     width: 290px;
-    font-family: arial;
+    font-family: Raleway;
     font-size: 16.7px;
 }
 
@@ -454,7 +462,7 @@ body{
     top: 260px;
     left: 9%;
     width: 290px;
-    font-family: arial;
+    font-family: Raleway;
     font-size: 16.7px;
 }
 
@@ -463,7 +471,7 @@ body{
     top: 260px;
     left: 9%;
     width: 290px;
-    font-family: arial;
+    font-family: Raleway;
     font-size: 16.7px;
 }
 
@@ -472,7 +480,7 @@ body{
     top: 260px;
     left: 9%;
     width: 290px;
-    font-family: arial;
+    font-family: Raleway;
     font-size: 16.7px;
 }
 
@@ -481,7 +489,7 @@ body{
     top: 260px;
     left: 9%;
     width: 290px;
-    font-family: arial;
+    font-family: Raleway;
     font-size: 16.7px;
 }
 
@@ -490,7 +498,7 @@ body{
     top: 260px;
     left: 9%;
     width: 290px;
-    font-family: arial;
+    font-family: Raleway;
     font-size: 16.7px;
 }
 
@@ -499,7 +507,7 @@ body{
     top: 260px;
     left: 9%;
     width: 290px;
-    font-family: arial;
+    font-family: Raleway;
     font-size: 16.7px;
 }
 
@@ -508,7 +516,7 @@ body{
     top: 260px;
     left: 9%;
     width: 290px;
-    font-family: arial;
+    font-family: Raleway;
     font-size: 16.7px;
 }
 
@@ -517,32 +525,31 @@ body{
     top: 260px;
     left: 9%;
     width: 290px;
-    font-family: arial;
+    font-family: Raleway;
     font-size: 16.7px;
 }
 
 
 #cproject1 {
     position: absolute;
-    top: 140px;
-    left: 4%;
+    top: 7.5%;
+    left: 18%;
     width: 350px;
     height: 530px;
-    
 }
 
 #cproject2 {
     position: absolute;
-    top: 140px;
-    left: 56%;
+    top: 7.5%;
+    left: 65%;
     width: 350px;
     height: 530px;
 }
 
 #cproject3 {
     position: absolute;
-    top: 749px;
-    left: 4%;
+    top: 7.5%;
+    left: -28%;
     width: 350px;
     height: 530px;
 
@@ -551,7 +558,7 @@ body{
 #cproject4 {
     position: absolute;
     top: 749px;
-    left: 56%;
+    left: 65%;
     width: 350px;
     height: 530px;
 
@@ -559,64 +566,64 @@ body{
 
 #cproject5 {
     position: absolute;
-    top: 1329px;
-    left: 4%;
+    top: 749px;
+    left: -28%;
     width: 350px;
     height: 530px;
 }
 
 #cproject6 {
     position: absolute;
-    top: 1329px;
-    left: 56%;
+    top: 749px;
+    left: 18%;
     width: 350px;
     height: 530px;
 }
 
 #cproject7 {
     position: absolute;
-    top: 103%;
-    left: 4%;
+    top: 73%;
+    left: -28%;
     width: 350px;
     height: 530px;
 }
 
 #cproject8 {
     position: absolute;
-    top: 103%;
-    left: 56%;
+    top: 73%;
+    left: 18%;
     width: 350px;
     height: 530px;
 }
 
 #cproject9 {
     position: absolute;
-    top: 136%;
-    left: 4%;
+    top: 73%;
+    left: 65%;
     width: 350px;
     height: 530px;
 }
 
 #cproject10 {
     position: absolute;
-    top: 136%;
-    left: 56%;
+    top: 103%;
+    left: 65%;
     width: 350px;
     height: 530px;
 }
 
 #cproject11 {
     position: absolute;
-    top: 170%;
-    left: 4%;
+    top: 103%;
+    left: 18%;
     width: 350px;
     height: 530px;
 }
 
 #cproject12 {
     position: absolute;
-    top: 170%;
-    left: 56%;
+    top: 103%;
+    left: -28%;
     width: 350px;
     height: 530px;
 }
