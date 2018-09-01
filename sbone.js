@@ -379,6 +379,59 @@ $(document).ready(function(){
     });
 });
 
+var span = document.getElementsByClassName("close")[0];
+var modal1 = document.getElementById('cmyModal1');
+var modal2 = document.getElementById('cmyModal2');
+var modal3 = document.getElementById('cmyModal3');
+var modal4 = document.getElementById('cmyModal4');
+var modal5 = document.getElementById('cmyModal5');
+var modal6 = document.getElementById('cmyModal6');
+var modal7 = document.getElementById('cmyModal7');
+var modal8 = document.getElementById('cmyModal8');
+var modal9 = document.getElementById('cmyModal9');
+var modal10 = document.getElementById('cmyModal10');
+var modal11 = document.getElementById('cmyModal11');
+var modal12 = document.getElementById('cmyModal12');
+
+window.onclick = function(event) {
+    if (event.target == modal1) {
+        modal1.style.display = "none";
+    }
+    if (event.target == modal2) {
+        modal2.style.display = "none";
+    }
+    if (event.target == modal3) {
+        modal3.style.display = "none";
+    }
+    if (event.target == modal4) {
+        modal4.style.display = "none";
+    }
+    if (event.target == modal5) {
+        modal5.style.display = "none";
+    }
+    if (event.target == modal6) {
+        modal6.style.display = "none";
+    }
+    if (event.target == modal7) {
+        modal7.style.display = "none";
+    }
+    if (event.target == modal8) {
+        modal8.style.display = "none";
+    }
+    if (event.target == modal9) {
+        modal9.style.display = "none";
+    }
+    if (event.target == modal10) {
+        modal10.style.display = "none";
+    }
+    if (event.target == modal11) {
+        modal11.style.display = "none";
+    }
+    if (event.target == modal12) {
+        modal12.style.display = "none";
+    }
+} 
+
 var count_particles, stats, update;
 stats = new Stats;
 stats.setMode(0);

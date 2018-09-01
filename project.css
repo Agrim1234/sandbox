@@ -334,7 +334,7 @@ body{
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 10; /* Sit on top */
-    padding-top: 54px; /* Location of the box */
+    padding-top: 50px; /* Location of the box */
     left: 0%;
     top: 0;
     width: 100%; /* Full width */
@@ -351,7 +351,7 @@ body{
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
-    height: 500px;
+    height: 530px;
     font-family: Raleway;
 }
 
@@ -366,7 +366,7 @@ body{
     font-size: 17px;
 }
 
-.clist1, .clist2, .clist3, .clist4, .clist5, .clist6, .clist7{
+.clist1, .clist2, .clist3, .clist4, .clist5, .clist6, .clist7, .clist8, .clist9, .clist10, .clist11, .clist12{
     position: absolute;
     top: 54%;
     width: 72%;

@@ -8,11 +8,12 @@ body{
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   height: 45px;
-  border-radius: 0px;;
+  border-radius: 0px;
   font-size: 16px;
   color: white;
     font-family: Arial;
   border: none;
+    position: fixed;
     cursor: pointer;
   background-color: inherit;
 }
@@ -47,24 +48,28 @@ body{
     position: fixed;
     top: 0px;
     left: 0px;
-    z-index: 5;
+    z-index: 9;
 }
 
 #logo{
     cursor: pointer;
     position: fixed;
-    z-index: 6;
+    z-index: 10;
     width: 52px;
+    top: 6px;
+    left: 8px;
     height: 40px;
 }
 
 .head3 {
     cursor: pointer;
     position: fixed;
-    top: -3px;
+    top: 15px;
+    font-weight: 990;
     left: 4%;
+    font-size: 18px;
     font-family: Arial;
-    z-index: 6;
+    z-index: 10;
     color: white
 }
 
