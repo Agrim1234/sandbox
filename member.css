@@ -1,5 +1,5 @@
 body{
-    background: url("bluebacl.png");
+    background: url("back.png");
 }
 
 .hvr-underline-from-center {
@@ -11,7 +11,7 @@ body{
   border-radius: 0px;
   font-size: 16px;
   color: white;
-    font-family: Arial;
+    font-family: Raleway;
   border: none;
     position: fixed;
     cursor: pointer;
@@ -39,15 +39,12 @@ body{
   right: 0;
 }
 
-.navbar {
-    overflow: hidden;
+.navbar1 {
     background-color: #262626;
     font-family: Arial;
     height: 54px;
     width: 100%;
     position: fixed;
-    top: 0px;
-    left: 0px;
     z-index: 9;
 }
 
@@ -84,7 +81,7 @@ body{
 }
 
 #drop2 {
-    position: absolute;
+    position: fixed;
     top: 4px;
     left: 90%;
     border-bottom-color: white;
@@ -142,7 +139,7 @@ body{
     border: none;
     outline: none;
     height: 45px;
-    padding: 15px 6px;
+    padding: 1px 6px;
     background-color: inherit;
     font: inherit;
     color: white;

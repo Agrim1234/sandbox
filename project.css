@@ -378,6 +378,7 @@ body{
     position: absolute;
     top: 140px;
     left: 10%;
+    cursor: pointer;
     width: 80%;
     font-weight: bolder;
     font-family: Raleway;

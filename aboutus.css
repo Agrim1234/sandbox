@@ -38,7 +38,7 @@ body{
   right: 0;
 }
 
-.navbar {
+.navbar1 {
     overflow: hidden;
     background-color: #262626;
     font-family: Arial;
@@ -55,6 +55,8 @@ body{
     cursor: pointer;
     position: fixed;
     z-index: 6;
+    top: 6px;
+    left: 8px;
     width: 52px;
     height: 40px;
 }
@@ -62,8 +64,10 @@ body{
 .head3 {
     cursor: pointer;
     position: fixed;
-    top: -3px;
+    top: 15px;
     left: 4%;
+    font-size: 18px;
+    font-weight: 900;
     font-family: Arial;
     z-index: 6;
     color: white
@@ -213,7 +217,7 @@ body{
     border: none;
     outline: none;
     height: 45px;
-    padding: 14px 12px;
+    padding: 1px 12px;
     background-color: inherit;
     font: Arial;
     color: white;
