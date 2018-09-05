@@ -386,6 +386,10 @@ body{
     text-align: center;
 }
 
+#cpt1:hover, #cpt2:hover, #cpt3:hover, #cpt4:hover,#cpt5:hover, #cpt6:hover, #cpt7:hover, #cpt8:hover, #cpt9:hover, #cpt10:hover,#cpt11:hover, #cpt12:hover{
+    text-decoration: underline;
+}
+
 #cps1, #cps2, #cps3,#cps4, #cps5,#cps6,#pps1, #pps2, #pps3,#pps4, #cps7, #cps8, #cps9,#cps10, #cps11, #cps12{
     position: absolute;
     top: 238px;
@@ -398,15 +402,53 @@ body{
 
 #cpimg1, #cpimg2, #cpimg3,#cpimg4, #cpimg5,#cpimg6,#ppimg1, #ppimg2, #ppimg3,#ppimg4, #cpimg7, #cpimg8, #cpimg9,#cpimg10, #cpimg11,#cpimg12{
     position: absolute;
-    top: 130px;
-    left: 22%;
+    top: 100px;
+    left: 12%;
+    width: 18%;
+    height: 24%
 }
 
-#cpmimg1, #cpmimg2, #cpmimg3,#cpmimg4, #cpmimg5,#cpmimg6,#ppmimg1, #ppmimg2, #ppmimg3,#ppmimg4, #cpmimg7, #cpmimg8, #cpmimg9,#cpmimg10,
+#cpmimg1, #cpmimg2, #cpmimg3, #cpmimg5,#cpmimg6,#ppmimg1, #ppmimg2, #ppmimg3,#ppmimg4, #cpmimg7, #cpmimg8, #cpmimg9,#cpmimg10,
 #cpmimg11,#cpmimg12{
     margin-top: 2%;
     margin-left: 2%;
     width: 96%;
+    height: 46%;
+}
+
+#cpmimg3{
+    margin-top: 2%;
+    margin-left: 20%;
+    height: 46%;
+    width: 60%;
+}
+
+#cpmimg4{
+    margin-top: 2%;
+    margin-left: 20%;
+    height: 46%;
+    width: 60%;
+}
+
+#cpmimg6{
+    margin-top: 2%;
+    margin-left: 20%;
+    height: 46%;
+    width: 60%;
+}
+
+#cpmimg5{
+    margin-top: 2%;
+    margin-left: 10%;
+    height: 46%;
+    width: 80%;
+}
+
+#cpmimg11{
+    margin-top: 2%;
+    margin-left: 10%;
+    height: 46%;
+    width: 80%;
 }
 
 #ppicon1,#ppicon2,#ppicon3,#ppicon4,#cpicon1,#cpicon2,#cpicon3,#cpicon4,#cpicon5,#cpicon6
@@ -420,6 +462,13 @@ body{
 
 #head1, #head2, #head3, #head4, #head5,#head6, #head7, #head8, #head9, #head10,#head11, #head12{
     font-weight: bold;
+    
+}
+
+#head1:hover, #head2:hover, #head3:hover, #head4:hover, #head5:hover,#head6:hover, #head7:hover, #head8:hover, #head9:hover, #head10:hover,#head11:hover, #head12:hover{
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 #cabout1 {
@@ -632,7 +681,6 @@ body{
 
 #cproject1:hover, #cproject2:hover, #cproject3:hover, #cproject4:hover, #cproject5:hover, #cproject6:hover,#cproject7:hover, #cproject8:hover, #cproject9:hover, #cproject10:hover, #cproject11:hover, #cproject12:hover{
     box-shadow: 0px 4px 13px 0px rgba(0,0,0,0.3);
-    cursor: pointer;
     border-radius: 10px;
 }
 

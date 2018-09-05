@@ -1,3 +1,54 @@
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: absolute;
+    left: 0%;
+    height: 700px;
+    width: 130%;
+    top: 0%;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Caption text */
+.text {
+  color: white;
+  font-size: 17px;
+  padding: 8px 12px;
+  position: absolute;
+  left: 0%;
+  width: 40%;
+    bottom: 10%;
+    z-index: 10;
+    font-family: Raleway;
+    background: linear-gradient(to right, rgba(26, 26, 26, 1), rgba(26, 26, 26, 0.7), rgba(26, 26, 26, 0));
+  text-align: center;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
 /* Underline From Center */
 .hvr-underline-from-center {
   display: inline-block;
@@ -33,45 +84,6 @@
 .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
   left: 0;
   right: 0;
-}
-
-.slideshow-container {
-  position: relative;
-  margin: auto;
-}
-
-/* Caption text */
-.text {
-  color: black;
-  font-size: 25px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
 }
 
 .navbar {
@@ -274,13 +286,14 @@
     left: -.9%;
 }
 
-#btn2 {
+#btn6 {
+    z-index: 10;
     position: absolute;
-    top: 470px;
-    left: 3%;
+    top: 550px;
+    left: 83%;
     background-color: inherit;
     border: 3px solid;
-    color: #262626;
+    color: white;
     height: 54px;
     font-size: 20px;
     width: 156px;
@@ -312,7 +325,7 @@
     z-index: 10;
     color: white;
     height: 52px;
-    width: 160px;
+    width: 14%;
     font-size: 24px;
 }
 

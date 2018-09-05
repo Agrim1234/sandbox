@@ -7,20 +7,14 @@ $(document).ready(function(){
     window.location.href = "index.html"
   });
 
-  $("#btn1").click(function(){
-    window.location.href = "index.html"
-  });
-  $("#btn2").click(function(){
-    window.location.href = "project.html"
-  });
   $("#btn3").click(function(){
     window.location.href = "member.html"
   });
   $("#btn4").click(function(){
     window.location.href = "aboutus.html"
   });
-  $("#btn5").click(function(){
-    window.location.href = "aboutus.html"
+  $("#btn6").click(function(){
+    window.location.href = "project.html"
   });
 
   $(".currentm").click(function(){
@@ -220,7 +214,7 @@ $(document).ready(function(){
   });
 
 
-  $("#img1").hover(function(){
+/*  $("#img1").hover(function(){
     $("#i2").css({"font-size":"17px","left":"97.7%","top":"271px"});
     },function(){
       $("#i2").css({"font-size":"9px","left":"97.9%","top":"275px"});
@@ -239,9 +233,12 @@ $(document).ready(function(){
     $("#i4").css({"font-size":"17px","left":"97.7%","top":"350px"});
     },function(){
       $("#i4").css({"font-size":"9px","left":"97.9%","top":"353px"});
-    });
+    });*/
 
     $("#drop1").click(function(){
+      window.location.href = "project.html"
+    });
+    $("#drop10").click(function(){
       window.location.href = "project.html"
     });
     $("#drop2").click(function(){
@@ -432,25 +429,20 @@ window.onclick = function(event) {
     }
 } 
 
-/*var slideIndex = 0;
+var slideIndex = 0;
 showSlides();
 
 function showSlides() {
     var i;
     var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot1");
     for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";  
+        slides[i].style.display = "none";
     }
     slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}    
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 4000); // Change image every 2 seconds
-}*/
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+} 
 
 var count_particles, stats, update;
 stats = new Stats;
