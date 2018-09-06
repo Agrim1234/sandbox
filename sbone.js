@@ -8,7 +8,7 @@ $(document).ready(function(){
   });
 
   $("#btn3").click(function(){
-    window.location.href = "member.html"
+    window.location.href = "collaboration.html"
   });
   $("#btn4").click(function(){
     window.location.href = "aboutus.html"

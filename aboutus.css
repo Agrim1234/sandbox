@@ -2,6 +2,20 @@ body{
     background: url("lightbrown.png");
 }
 
+b{
+    font-weight: bold;
+}
+
+#heading{
+    margin-left: 5%;
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 12%;
+    font-family: Raleway;
+    width: 90%;
+    color: white;
+}
+
 .hvr-underline-from-center {
   display: inline-block;
   vertical-align: middle;
