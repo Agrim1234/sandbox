@@ -1,10 +1,10 @@
 $(document).ready(function(){
 
   $("#logo").click(function(){
-    window.location.href = "../overview/index.html"
+    window.location.href = "../index.html"
   });
   $(".head3").click(function(){
-    window.location.href = "../overview/index.html"
+    window.location.href = "../index.html"
   });
 
   $("#btn3").click(function(){
@@ -247,7 +247,7 @@ $(document).ready(function(){
       window.location.href = "../members/member.html"
     });
     $("#drop3").click(function(){
-      window.location.href = "../overview/index.html"
+      window.location.href = "../index.html"
     });
     $("#drop4").click(function(){
       window.location.href = "../collaboration/collaboration.html"
