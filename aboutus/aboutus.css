@@ -1,0 +1,280 @@
+body{
+    background: url("../common/images/lightbrown.png");
+}
+
+b{
+    font-weight: bold;
+}
+
+#heading{
+    margin-left: 5%;
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 12%;
+    font-family: Raleway;
+    width: 90%;
+    color: white;
+}
+
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  height: 45px;
+  border-radius: 0px;;
+  font-size: 16px;
+  color: white;
+  border: none;
+    cursor: pointer;
+    font-family: Arial;
+  background-color: inherit;
+}
+
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 51%;
+  right: 51%;
+  bottom: 10%;
+  background: white;
+  height: 2px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
+}
+
+.navbar1 {
+    overflow: hidden;
+    background-color: #262626;
+    font-family: Arial;
+    height: 54px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+
+}
+
+#logo{
+    cursor: pointer;
+    position: fixed;
+    z-index: 6;
+    top: 6px;
+    left: 8px;
+    width: 52px;
+    height: 40px;
+}
+
+.head3 {
+    cursor: pointer;
+    position: fixed;
+    top: 15px;
+    left: 4%;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: Arial;
+    z-index: 6;
+    color: white
+}
+
+.accordion1{
+    background-color: #eee;
+    color: #444;
+    margin-top: 9%;
+    margin-left: 3%;
+    cursor: pointer;
+    padding: 18px;
+    width: 90%;
+    font-size: 17px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.accordion2, .accordion3, .accordion4, .accordion5, .accordion6, .accordion7, .accordion8, .accordion9, .accordion10{
+    background-color: #eee;
+    color: #444;
+    margin-top: 0.5%;
+    margin-left: 3%;
+    cursor: pointer;
+    padding: 18px;
+    width: 90%;
+    font-size: 17px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.active, .accordion1:hover, .accordion2:hover, .accordion3:hover, .accordion4:hover, .accordion5:hover, .accordion6:hover, .accordion7:hover
+, .accordion8:hover, .accordion9:hover, .accordion10:hover{
+    background-color: #ccc;
+}
+
+.panel1, .panel2, .panel3, .panel4, .panel5, .panel6, .panel7, .panel8, .panel9, .panel10{
+    width: 88%;
+    font-size: 19px;;
+    font-family: arial;
+    color: black;
+    text-align: left;
+    margin-left: 4%;
+    
+    display: none;
+    overflow: hidden;
+}
+
+#drop1 {
+    position: absolute;
+    top: 4px;
+    border-radius: 16px;
+    left: 66.7%;
+    float: right;
+    overflow: hidden;
+    background-color: inherit;
+}
+
+#drop2 {
+    position: absolute;
+    top: 4px;
+    border-radius: 16px;
+    left: 90%;
+    float: right;
+    overflow: hidden;
+    background-color: inherit;
+}
+
+#drop3 {
+    position: absolute;
+    top: 4px;
+    left: 48%;
+    border-radius: 16px;
+    float: right;
+    overflow: hidden;
+    background-color: inherit;
+}
+
+#drop4 {
+    position: absolute;
+    top: 4px;
+    left: 76%;
+    border-radius: 16px;
+    float: right;
+    overflow: hidden;
+    background-color: inherit;
+}
+
+#drop5 {
+    position: absolute;
+    top: 4px;
+    left: 57.5%;
+    border-bottom: 2px solid;
+    border-bottom-color: white;
+    border-radius: 1px;
+    float: right;
+    overflow: hidden;
+    background-color: inherit;
+}
+
+.dropdown .dropbtn1{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    color: white;
+}
+
+.dropdown .dropbtn2{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: #262626;
+    font: inherit;
+    color: white;
+}
+
+.dropdown .dropbtn3{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    color: white;
+}
+
+.dropdown .dropbtn4{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    color: white;
+}
+
+.dropdown .dropbtn5{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    height: 45px;
+    padding: 1px 12px;
+    background-color: inherit;
+    font: Arial;
+    color: white;
+}
+
+.dropdown:hover .dropbtn1{
+    background-color: white;
+    color: black;
+}
+
+.dropdown:hover .dropbtn2{
+    background-color: white;
+    color: black;
+}
+
+.dropdown:hover .dropbtn3{
+    background-color: white;
+    color: black;
+}
+
+.dropdown:hover .dropbtn4{
+    background-color: white;
+    color: black;
+}
+
+.abo {
+  text-shadow: 2px 2px 5px grey;
+  position: absolute;
+  width: 99.4%;
+  height: 60px;
+  background: linear-gradient(to right, rgba(211, 211, 211, 0), rgba(26, 26, 26, 1), rgba(0, 255, 0, 0));
+  top: 54px;
+  z-index: 4;
+  font-size: 28px;
+  text-align: center;
+  color: white;
+}
+
+#aboutus{
+  width: 100%;
+  font-family: arial;
+  font-size: 26px;
+  position: absolute;
+  top: -16px;
+  text-align: center;
+}

@@ -1,0 +1,623 @@
+body{
+    background: url("../common/images/back.png");
+}
+
+#droptog{
+    position: absolute;
+    top: 36%;
+    font-family: Raleway;
+    font-size: 20px;
+    left: 5%;
+    width: 20%;
+}
+
+#dropmenu{
+    height: 140%;
+    width: 80%;
+}
+
+li{
+    margin-top: -4%;
+    vertical-align: baseline;
+    text-align: center;
+    margin-bottom: 5.5%;
+    margin-left: -4%;
+    height: 60%;
+    width: 109%;
+    font-size: 16px;
+}
+
+#mlink1,#mlink2{
+    
+}
+
+li:hover{
+    background-color: lightgray;
+}
+
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  height: 45px;
+  border-radius: 0px;
+  font-size: 16px;
+  color: white;
+    font-family: Raleway;
+  border: none;
+    position: fixed;
+    cursor: pointer;
+  background-color: inherit;
+}
+
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 51%;
+  right: 51%;
+  bottom: 10%;
+  background: white;
+  height: 2px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
+}
+
+.navbar1 {
+    background-color: #262626;
+    font-family: Arial;
+    height: 54px;
+    width: 100%;
+    position: fixed;
+    z-index: 9;
+}
+
+#logo{
+    cursor: pointer;
+    position: fixed;
+    z-index: 10;
+    width: 52px;
+    top: 6px;
+    left: 8px;
+    height: 40px;
+}
+
+.head3 {
+    cursor: pointer;
+    position: fixed;
+    top: 15px;
+    font-weight: 990;
+    left: 4%;
+    font-size: 18px;
+    font-family: Arial;
+    z-index: 10;
+    color: white
+}
+
+#drop1 {
+    border-radius: 16px;
+    position: absolute;
+    top: 4px;
+    left: 66.7%;
+    float: right;
+    overflow: hidden;
+    background-color: inherit;
+}
+
+#drop2 {
+    position: fixed;
+    top: 4px;
+    left: 90%;
+    border-bottom-color: white;
+    border-bottom: 2px solid;
+    border-radius: 1px;
+    color: white;
+    float: right;
+    overflow: hidden;
+    background-color: inherit;
+}
+
+#drop3 {
+    position: absolute;
+    top: 4px;
+    border-radius: 16px;
+    left: 48%;
+    float: right;
+    overflow: hidden;
+    background-color: inherit;
+}
+
+#drop4 {
+    position: absolute;
+    top: 4px;
+    border-radius: 16px;
+    left: 76%;
+    float: right;
+    overflow: hidden;
+    background-color: inherit;
+}
+
+#drop5 {
+    position: absolute;
+    top: 4px;
+    border-radius: 16px;
+    left: 57.5%;
+    float: right;
+    overflow: hidden;
+    background-color: inherit;
+}
+
+.dropdown .dropbtn1{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    color: white;
+    cursor: pointer;
+}
+
+.dropdown .dropbtn2{
+    font-size: 14px;
+    border: none;
+    outline: none;
+    height: 45px;
+    padding: 1px 6px;
+    background-color: inherit;
+    font: inherit;
+    color: white;
+    cursor: pointer;
+}
+
+.dropdown .dropbtn3{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    color: white;
+    cursor: pointer;
+}
+
+.dropdown .dropbtn4{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    color: white;
+    cursor: pointer;
+}
+
+.dropdown .dropbtn5{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    color: white;
+    cursor: pointer;
+}
+
+.dropdown:hover .dropbtn3{
+    background-color: white;
+    color: black;
+}
+
+.dropdown:hover .dropbtn4{
+    background-color: white;
+    color: black;
+}
+
+.dropdown:hover .dropbtn5{
+    background-color: white;
+    color: black;
+}
+
+.mdropdown .mdropbtn{
+    width: 160px;
+    position: absolute;
+    top: 200px;
+    left: 6.8%;
+    border-radius: 10%;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: firebrick;
+   font-family: arial;
+    margin: 0;
+}
+
+.mdropdown:hover .mdropbtn {
+    background-color: red;
+}
+
+.mdropdown-content {
+    position: absolute;
+    top: 240px;
+    left: 6.8%;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;font-family: arial;
+
+}
+
+.mdropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    float: none;
+    cursor: pointer;
+}
+
+.mdropdown-content a:hover {background-color: #ddd}
+
+.mdropdown:hover .mdropdown-content {
+    display: block;
+}
+
+
+#mdrop {
+    position: absolute;
+    top: 10px;
+    left: 80%;
+}
+
+#currentm {
+    position: absolute;
+    top: 190px;
+    display: block;
+    width: 400px;
+    height: 100px;
+    cursor: pointer;
+}
+
+#pastm {
+    position: absolute;
+    top: 190px;
+    display: none;
+    width: 400px;
+    height: 100px;
+	cursor: pointer;
+}
+
+.cur {
+  text-shadow: 2px 2px 5px grey;
+  position: absolute;
+  width: 99.4%;
+  height: 60px;
+  background: linear-gradient(to right, rgba(211, 211, 211, 0), rgba(26, 26, 26, 1), rgba(0, 255, 0, 0));
+  top: 54px;
+  z-index: 4;
+  font-size: 28px;
+  text-align: center;
+  color: white;
+}
+
+#current{
+  width: 100%;
+  font-family: arial;
+  font-size: 26px;
+  position: absolute;
+  top:-15px;
+  text-align: center;
+}
+
+#person1 {
+  position: absolute;
+  top: 160px;
+  width: 190px;
+  height: 270px;
+  left:0%;
+}
+
+#person2 {
+    position: absolute;
+    top: 160px;
+    left:21%;
+    width: 190px;
+    height: 270px;
+}
+
+#person3 {
+    position: absolute;
+    top: 160px;
+    left:41%;
+    width: 190px;
+    height: 270px;
+}
+
+#person4 {
+    position: absolute;
+    top: 160px;
+    left:61.4%;
+    width: 190px;
+    height: 270px;
+}
+
+#person5 {
+    position: absolute;
+    top: 160px;
+    left:81%;
+    width: 190px;
+    height: 270px;
+}
+
+#person6 {
+    position: absolute;
+    top: 500px;
+    left:0%;
+    width: 190px;
+    height: 270px;
+}
+
+#person7 {
+    position: absolute;
+    top: 500px;
+    left:21%;
+    width: 190px;
+    height: 270px;
+}
+
+#person1:hover, #person2:hover, #person3:hover, #person4:hover, #person5:hover, #person6:hover, #person7:hover {
+  box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.5);  
+}
+
+#person1:hover #mdesc1{
+    display: block;
+}
+
+#person2:hover #mdesc2{
+    display: block;
+}
+
+#person3:hover #mdesc3{
+    display: block;
+}
+
+#person4:hover #mdesc4{
+    display: block;
+}
+
+#person5:hover #mdesc5{
+    display: block;
+}
+
+#person6:hover #mdesc6{
+    display: block;
+}
+
+#person7:hover #mdesc7{
+    display: block;
+}
+
+#pperson1:hover, #pperson2:hover, #pperson3:hover, #pperson4:hover,#pperson5:hover, #pperson6:hover, #pperson7:hover, #pperson8:hover, #pperson9:hover{
+  box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.5);  
+}
+
+#pperson1:hover #pdesc1{
+    display: block;
+}
+
+#pperson2:hover #pdesc2{
+    display: block;
+}
+
+#pperson3:hover #pdesc3{
+    display: block;
+}
+
+#pperson4:hover #pdesc4{
+    display: block;
+}
+
+#pperson5:hover #pdesc5{
+    display: block;
+}
+
+#pperson6:hover #pdesc6{
+    display: block;
+}
+
+#pperson7:hover #pdesc7{
+    display: block;
+}
+
+#pperson8:hover #pdesc8{
+    display: block;
+}
+
+#pperson9:hover #pdesc9{
+    display: block;
+}
+
+#mimg1, #mimg2, #mimg3, #mimg4, #mimg5, #mimg6, #mimg7{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13px;
+    width: 70%;
+    height: 46%;
+}
+
+#mhead1, #mhead2, #mhead3, #mhead4, #mhead5, #mhead6, #mhead7{
+    margin-top: 12%;
+    text-align: center;
+    font-size: 17px;
+    font-family:Arial;
+}
+
+#mdesc1, #mdesc2, #mdesc3, #mdesc4, #mdesc5, #mdesc6, #mdesc7{
+    text-align: center;
+    display: none;
+    font-family: Arial;
+    margin-top: 16%;
+}
+
+#pperson1 {
+  position: absolute;
+  top: 160px;
+  left:0%;
+  width: 190px;
+  height: 270px;
+}
+
+#pperson2 {
+  position: absolute;
+  top: 160px;
+  left:21%;
+  width: 190px;
+  height: 270px;
+}
+
+#pperson3 {
+  position: absolute;
+  top: 160px;
+  left:41%;
+    width: 190px;
+    height: 270px;
+}
+
+#pperson4 {
+  position: absolute;
+  top: 160px;
+  left:61.7%;
+    width: 190px;
+    height: 270px;
+}
+
+#pperson5 {
+  position: absolute;
+  top: 160px;
+  left:83%;
+  width: 190px;
+  height: 270px;
+}
+
+#pperson6 {
+  position: absolute;
+  top: 85%;
+  left:21%;
+  width: 190px;
+  height: 260px;
+}
+
+#pperson7 {
+  position: absolute;
+  top: 85%;
+  left:41%;
+    width: 190px;
+    height: 260px;
+}
+
+#pperson8 {
+  position: absolute;
+  top: 85%;
+  left:0%;
+    width: 190px;
+    height: 260px;
+}
+
+#pperson9 {
+  position: absolute;
+  top: 85%;
+  left:62%;
+    width: 190px;
+    height: 260px;
+}
+
+#phead1, #phead2, #phead3, #phead4, #phead5, #phead6, #phead7, #phead8, #phead9{
+    margin-top: 19px;
+    text-align: center;
+    margin-left: 8%;
+    margin-right: 8%;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+#pdesc1, #pdesc2, #pdesc4, #pdesc5, #pdesc6, #pdesc7, #pdesc8, #pdesc9{
+    text-align: center;
+    display: none;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    margin-top: 13%;
+    font-family: Arial;
+}
+
+#pdesc3{
+    position: absolute;
+    text-align: center;
+    top: 180px;
+    left: 10%;
+    right: 10%;
+    display: none;
+    height: 80%;
+    width: 80%;
+}
+
+#pimg1, #pimg2, #pimg3, #pimg4,#pimg5, #pimg6, #pimg7, #pimg8, #pimg9{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13px;
+    width: 70%;
+    height: 46%;
+}
+
+#mcurr {
+    position: absolute;
+    top: 24px;
+    font-family: arial;
+    font-size: 24px;
+    width: inherit;
+    text-align: center;
+}
+
+#mpre {
+    position: absolute;
+    top: 24px;
+    font-family: arial;
+    font-size: 24px;
+    width: inherit;
+    text-align: center;
+}
+
+.mprevious{
+    position: absolute;
+    left: 23%;
+    top: 200px;
+    display: none;
+    height:549px;
+    width: 940px;
+}
+
+.mcurrent{    
+    position: absolute;
+    left: 23%;
+    top: 200px;
+    display: block;
+    height:799px;
+    width: 940px;
+}

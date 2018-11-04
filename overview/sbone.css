@@ -1,0 +1,350 @@
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: absolute;
+    left: 0%;
+    height: 700px;
+    width: 130%;
+    top: 0%;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Caption text */
+.text {
+  color: white;
+  font-size: 17px;
+  padding: 8px 12px;
+  position: absolute;
+  left: 0%;
+  width: 40%;
+    bottom: 80%;
+    z-index: 10;
+    font-family: Raleway;
+    background: linear-gradient(to right, rgba(26, 26, 26, 1), rgba(26, 26, 26, 0.7), rgba(26, 26, 26, 0));
+  text-align: center;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* Underline From Center */
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  height: 47px;
+  border-radius: 0px;;
+  font-size: 16px;
+  color: white;
+  border: none;
+    font-family: Raleway;
+    cursor: pointer;
+  background-color: inherit;
+}
+
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 51%;
+  right: 51%;
+  bottom: 10%;
+  background: white;
+  height: 2px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
+}
+
+.navbar {
+    z-index: 6;
+    overflow: hidden;
+    background-color: #262626;
+    font-family: Arial;
+    height: 55px;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+   left: 0%;
+}
+
+#logo{
+    top: 8px;
+    left: 8px;
+    position: absolute;
+    z-index: 7;
+    width: 52px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.head3 {
+    cursor: pointer;
+    position: absolute;
+    top: -3px;
+    left: 4%;
+    font-family: Arial;
+    z-index: 7;
+    color: white;
+}
+
+#drop1 {
+    position: absolute;
+    top: 4px;
+    left: 66.9%;
+    float: right;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+#drop2 {
+    position: absolute;
+    top: 4px;
+    left: 90%;
+    float: right;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+#drop3 {
+    position: absolute;
+    top: 4px;
+    left: 48%;
+    float: right;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+#drop4 {
+    position: absolute;
+    top: 4px;
+    left: 76.5%;
+    float: right;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+#drop5 {
+    position: absolute;
+    top: 4px;
+    left: 57.5%;
+    float: right;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.dropdown .dropbtn{
+    height: 47px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    cursor: pointer;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: white;
+    color: black;
+}
+
+.carousel-caption1 {
+    position: absolute;
+    top: 400px;
+    color: black;
+    font-family: arial;
+    font-size: 26px;
+    width: 700px;
+    left: 04%;
+    z-index: 1;
+    text-shadow: 0px 0px #262626;
+}
+
+#overhe1{
+    z-index: 10;
+    position: absolute;
+    top: 380px;
+    left: 84%;
+    font-weight:bold;
+    font-family: Raleway;
+    font-size: 29px;
+    color: white;
+}
+
+#overde2{
+    position: absolute;
+    top: 450px;
+    left: 50.6%;
+    z-index: 10;
+    text-align: right;
+    font-family: Raleway;
+    font-size: 26px;
+    color: white;
+    width: 599px;
+}
+
+#overhe2{
+    position: absolute;
+    top: 380px;
+    left: 1.6%;
+    font-family: Raleway;
+    font-size: 29px;
+    color: white;
+    font-weight: bolder;
+    z-index: 6;
+}
+
+#overde3{
+    position: absolute;
+    top: 450px;
+    left: 1.6%;
+    font-family: Raleway;
+    font-size: 26px;
+    color: white;
+    
+}
+
+#overhe3{
+    z-index: 11;
+    position: absolute;
+    height: 40px;
+    width: 160px;
+    top: 390px;
+    left: 2.4%;
+    font-family: Raleway;
+    font-size: 29px;
+    color: white;
+}
+
+#overde4{
+    z-index: 11;
+    position: absolute;
+    top: 450px;
+    left: 2.4%;
+    font-family: Raleway;
+    font-size: 26px;
+    color: white;
+}
+
+#img2{
+    height: 100%;
+    width: 101.1%;
+    top: 0px;
+    position: absolute;
+    margin-bottom: -0.5%;
+    left: -1px;
+}
+
+#img3{
+    height: 105%;
+    width: 101.1%;
+    top: 0px;
+    position: absolute;
+    margin-bottom: -0.5%;
+    left: -.9%;
+}
+
+#img4{
+    height: 100%;
+    width: 101.1%;
+    top: 0px;
+    background: lightgray;
+    position: absolute;
+    margin-bottom: -0.5%;
+    left: -.9%;
+}
+
+#btn6 {
+    z-index: 10;
+    position: absolute;
+    top: 550px;
+    left: 83%;
+    background-color: inherit;
+    border: 3px solid;
+    color: white;
+    height: 54px;
+    font-size: 20px;
+    width: 156px;
+    cursor: pointer;
+    box-shadow: 0px 10px 16px 0px rgba(26,26,26,0.5);
+}
+
+#btn3 {
+    cursor: pointer;
+    position: absolute;
+    top: 527px;
+    left: 72.5%;
+    background-color: inherit;
+    border: 3px solid;
+    color: white;
+    height: 55px;
+    width: 150px;
+    font-size: 20px;
+    box-shadow: 0px 10px 16px 0px rgba(0,0,0,0.5);
+}
+
+#btn4 {
+    cursor: pointer;
+    position: absolute;
+    top: 470px;
+    left: 18%;
+    background-color: inherit;
+    border: 3px solid;
+    z-index: 10;
+    color: white;
+    height: 52px;
+    width: 14%;
+    font-size: 24px;
+}
+
+#grad1{
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: black;
+    z-index: 9;
+    background: linear-gradient(to right, rgba(211, 211, 211, 0), rgba(26, 26, 26, 0.7), rgba(26, 26, 26, 1));
+}
+
+#grad2{
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: black;
+    z-index: 9;
+    background: linear-gradient(to left, rgba(211, 211, 211, 0), rgba(26, 26, 26, 0.7), rgba(26, 26, 26, 1));
+}

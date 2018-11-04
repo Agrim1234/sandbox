@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <Title>Modbots
+    </Title> 
+    <meta charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="writeup.css">
+  </head>
+  <body>
+    <div class="dropdown" id="drop10">
+    <button class="hvr-underline-from-center">PROJECTS
+    </button>
+   </div>
+    <div class="bsecure">
+      <br><br>
+      <p id="main">MODULAR ROBOTS</p>
+    </div>
+      <p id="head">WRITE UP</p>
+      <p id="desc">
+	<br><br><br><br>
+        Reconfigurable robots made of small modules which
+	may have common or distinct functionality based on
+	the application. These modules can link to each other,
+	locomote individually or in clusters, move relative to
+	each other, and communicate to each other to form a
+	variety of robots in a single or multiple tasks.
+	<br><br>
+	• What we are trying to achieve here is basically
+	three basic features in our modbot:
+	<br><br>
+	1. Locomotion : 3 face discs and actuators(3 stepper
+	motors)
+	<br>
+	2. Linkage : same face discs and actuators(6
+	electromagnetic solenoid pistons)
+	<br>
+	3. Movement (DOF) : same face discs and actuators
+	(same 3 stepper motors & 3 servo motors)
+	For this we would need the modules to sense their
+	relative position of each other for which we are using
+	(MPU9255) other than that we need module to be
+	controlled logically for which there would be a
+	microcontroller(TEENSY 3.6) and for transfer of data
+	among the modules we would need a wireless
+	communication device(XBEE).
+	<br><br>
+	The whole module system is split into three types of
+	modules:
+	<br>
+	1. M-module(mechanical)
+	<br>
+	2. E-module(electronic)
+	<br>	
+	3. S-module(special).
+	<br><br>
+	A single M-module, mechanical and electrical designs
+	are completed and tested. The designs can be looked
+	up at our github repository:
+	https://github.com/usarawgi911/ModBots .
+	The designs we have come up with are hard to achieve
+	in real life using ordinary techniques, the whole body
+	of our modules are completely printed using the 3-D
+	printer provided to us in Sand box, we have also used
+	the DC voltage supplies over there to select an
+	optimistic battery for a single module, we have been
+	using the PCB milling machine to make our PCB’s, tools
+	in the workshop and even other inventory are used in
+	the process.
+	<br><br>
+	The sandbox committee has helped us by giving us the
+	necessary equipment and taught us how to use them,
+	they also helped us by funding us to get the necessary
+	sensors and actuators.
+	<br><br>
+	It would be nice if we had equipment which can help
+	us measure the torque of our actuators and if the
+	equipment in the inventory include more Xbee
+	modules, Teensy boards, better IMU sensors more
+	precision PCB etching machines.
+<br><br>
+      </p>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+    	</script>
+	<script type="text/javascript" src="../overview/sbone.js">
+ 	</script>
+  </body>
+</html>

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <Title>Swarm Bots
+    </Title> 
+    <meta charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="writeup.css">
+  </head>
+  <body>
+	<div class="dropdown" id="drop10">
+    <button class="hvr-underline-from-center">PROJECTS
+    </button>
+   </div>
+    <div class="bsecure">
+      <br><br>
+      <p id="main">SWARM BOTS</p>
+    </div>
+      <p id="head">WRITE UP</p>
+      <p id="desc">
+	<br><br><br><br>
+        WIRELESS SENSOR NETWORKS USING SWARM ROBOTICS
+	<br><br>
+	</p>
+	<br><br>
+	
+	                         	
+	<br><br>
+	<p id="desc1">
+	Executive summary 
+	<br><br>
+	The aim of the project is to create a sensor network which will assist in gathering data over large areas. We plan on testing it for 		analyzing pollution levels in Goa. This network can also be modified to measure moisture and soil health levels in fields to 		optimize the irrigation and pesticide distribution system.
+	<br>
+	The sensor data will be collected by a swarm of Quadcopters which will be deployed whenever the data is to retrieved.
+	<br><br>
+	The project will be having two parts. One is the Quadcopter swarming and second is developing the sensor modules. 
+	<br><br>
+	Swarm robotics is an approach to the coordination of multirobot systems which consist of large numbers of mostly simple physical 		robots. 
+	Once we have successfully implemented a swarming of the above bots, we can create a network of sensor nodes mounted on top of the 		robots,and use it to efficiently monitor the data of the area. 
+	We achieve swarming to divide workload between multiple bots and to make them communicate with each other, resulting in smarter 	behaviour of the overall system.
+	
+	Each of the sensor modules will have the sensors necessary for the application installed on it. 
+	These modules will be installed at different locations in the area to be monitored. These modules will be continuously collecting 	the required data. Whenever the data needs to be collected the drones will go to the area over which data is collected. The drones 	will travel over the area in a swarm receiving the data collected by the sensor nodes.
+	<br><br>
+	Novelty of the proposal
+	<br><br>
+	The proposal leads to the production of a prototype which isn’t available till date and hasn’t been explored or implemented, 		according to our knowledge. We plan to create a much faster, easier and highly reliable system for data collection in various 		applications. 
+	<br><br>		
+	By sending a swarm of drones into the field more area can be covered in less time. As the drones can go to places where humans can 	not reach data can collected from such remote places also. The sensor nodes can be very cheap and can be mass manufactured as they only 		need to gather the data and send it over a very short range, that is the drone above it. This will increase the battery life of the 		modules and they can be expendable.
+		
+	From the viewpoint of Sandbox, under careful observation of the resources already present with us, we found that we have a libelium 	kit, priced at INR 5,76,000, which has all the components we need and which we will make use of. These have the nodes (moats) which 	we’ll be using, they have xbee modules which will be extensively used for communication between the robots and sensors gathering 	data.
+	<br><br>
+	Technical Prerequisites 
+	<br><br>
+	For this project,knowledge of the following skills is required :-
+	<br><br>
+	1. Mechanism and Product Designing using CAD/CAM softwares
+	<br>
+	2. Wireless communication using Xbee modules.
+	<br>
+	3. Programming and simulating robots using ROS
+	<br>
+	4. Programming of Raspberry Pi and Teensy 3.6 boards.
+	<br>
+	5. PCB designing using Eagle
+	<br><br>	
+	Methodology of Execution
+	<br><br>	
+	Instead of directly developing algorithms on the multirotors, the algorithms will be developed on ground based rovers so as to 		prevent losses due to crashes. The rovers will have a Raspberry Pi on each of them for running ROS, and will cheaply simulate the 		effect of multirotors. Simultaneously, the communication equipment from the Libelium IOT Kit will be tested and set up for 		efficient data transfer when the drone is in range of the mote.
+	<br><br>	
+	Algorithms and programs will then be written to control the path planning of the swarm of multi rotors optimising for the distance 	travelled and the time taken for data retrieval. All stages will be heavily utilising ROS - Robotics Operating System. All available 	communication mechanisms in ROS will be tested and the design will be further improved upon. Our current design is as follows using 	rovers: 
+	<br><br>
+	After implementation of the swarm of multirotors, the sensor nodes and communication equipment will be introduced into the system. 
+	
+	Further work will be on providing updates remotely to the nodes and improvements in design of the motes for longer life of 		batteries.  
+	<br><br>	
+	Timeline of product development
+	<br><br>
+	Phase 1: 
+	<br>
+	September 2017 - February 2018
+	<br>
+	Centralised Swarm of Multirotors to create formations and retrieval of live feed from nodes 
+	<br><br>	
+	Phase 2:
+	<br><br>
+	February 2018 - April 2018 
+	<br>
+	Decentralised Swarm of Multirotors to create formations and retrieval of any kind of data in stipulated bandwidth
+	<br><br>	
+	Phase 3:
+	<br><br>
+	May 2018
+	<br>
+	Implementation with WSN and swarm of multiple multirotors to collect data
+	<br><br>
+	Background Work Completed
+	<br><br>
+	Preliminary research on swarm robotics pertaining to efficient division of work among the various drones in a swarm has been done.
+	We have scrutinized the various sensors available to us in the Libelium IOT kit and we are examining which sensors to include on the 		nodes so as to create a powerful yet cost effective network of information gathering motes.
+	Research on the XBee wireless modules and their implementation is being conducted.
+	Drone robots have been designed and the various components required on them such as Rasberry Pi s and PixHawk flight controllers 		have been decided.
+	Basic ROS and Rasberry Pi programming has been learnt to interface and control the required hardware and peripherals. 
+	  <br><br>
+	Impact and Utility of the Product
+	<br><br>
+	This product will be revolutionary in the sense that it will have the ability to provide a common farmer with information at a very 		reasonable price.It will create durable sensors which will be interfaced with a quadcopter.
+	Along the way,we shall be creating robust sensors which have the ability to weather time and natural elements and which will act as 		excellent soil indicators.
+	<br>	
+	The advantage of interfacing with a quadcopter is that these sensors will be able to last for a much longer time as compared to a 	conventional sensor which is continuously transmitting as this sensor will transmit only when necessary..This property can be very 	useful if these nodes are deployed at remote locations where replacing or charging these nodes is a costly operation and hence this 	product can find further utility there.
+	<br><br>	
+	 Existing Products and Comparison of our product
+	<br><br>	
+	There are existing Wireless Sensor Networks which use a 3-D network to monitor a particular area. There are a lot of products like 	FireWxNet which monitor forest fires using 3-D network.
+	But our network has a mobile Base station as compared to a stationary Base station which is present in all the existing networks. 
+	A mobile base station enables us to save a lot of power which would otherwise be wasted in transmission . Thus we are able to keep 	the network live longer than traditional networks as the battery of the motes last longer. The only power constraint is that of the 	base station and we can recharge that very easily to ensure that the network is live. 
+	We can easily replace malfunctioning or dead motes with a mobile base station. We would be able to replace the mote at its existing 		position,thus saving us the time which would be wasted in calculating efficient routes for transmission of the new mote.
+	<br><br>	
+	Equipments Required from Sandbox 
+	<br><br>
+	Raspberry Pi
+	<br>	
+	Arduino
+	<br>
+	Rover 5 Kit
+	<br>
+	3D Printer
+	<br>
+	Multi channel Power Supply
+	<br>
+	Kinect
+	<br>
+	Multimeter
+	<br>
+	Libellium IOT Vertical Kit consisting of : 
+	<br>	
+	Meshlium 4G 802.15.4 AP 
+	<br>	
+	Plug & Sense! SCP 802.15.4-PRO 5dBi
+	<br>	
+	Plug & Sense! SE-PRO 802.15.4-PRO 5 dBi Europe version 
+	<br>	
+	Noise / Sound Level Sensor
+	<br>	
+	Luminosity (luxes accuracy)
+	<br>	
+	Temperature, Humidity and Pressure Sensor Probe
+	<br>	
+	Calibrated Carbon Monoxide (CO) gas Sensor Probe
+	<br>	
+	Calibrated Nitric Dioxide (NO2) gas Sensor (High Accuracy) Probe
+	<br>
+	Calibrated Ozone (O3) gas Sensor Probe
+	<br>	
+	Outdoors USB cable 
+	<br>	
+	International adapter 
+	<br>
+	6600mAh rechargeable battery + external solar panel 
+	<br>	<br>
+	Equipment Required that are not in Sandbox : 
+	<br><br>	
+	Drones x9
+	<br>	
+	Rover Kits x7
+	<br><br>
+	We have already purchased the rover kits and are working with them. We plan on spending money from our own pocket to purchase the 	rest of the components. We will also be participating in competitions to raise the required amount for the hardware required. 
+	<br><br>	
+	Team Members:
+	<br><br>
+	<table style="width:30%; margin-left:5%; margin-top:234%; font-family:Raleway;">
+  	<tr>
+    	  <th style="text-align:left;">Name</th>
+    	  <th style="text-align:left;">ID</th>
+  	</tr>
+  	<tr>
+  	  <td>Nikhil Khedekar</td>
+  	  <td>2015A7PS0075G</td>
+  	</tr>
+  	<tr>
+  	  <td>Shubham Kumar</td>
+  	  <td>2015A3PS0158G</td>
+  	</tr>
+	<tr>
+  	  <td>Mihir Dharmadhikari</td>
+  	  <td>2016A8PS0616G</td>
+  	</tr>
+  	<tr>
+  	  <td>Mihir Kulkarni</td>
+  	  <td>2016A4PS0150G</td>
+  	</tr>
+	<tr>
+  	  <td>Adithya Narayanan</td>
+  	  <td>2015A3PS0224G</td>
+  	</tr>
+	</table>
+	<br><br> 
+      </p>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+    </script>
+<script type="text/javascript" src="../overview/sbone.js">
+  </script>
+  </body>
+</html>
