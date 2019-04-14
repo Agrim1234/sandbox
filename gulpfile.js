@@ -5,10 +5,9 @@ const gulp = require('gulp');
 const uglify = require('gulp-uglify');
 const cssnano = require('gulp-cssnano');
 const imagemin = require('gulp-imagemin');
+const imageResize = require('gulp-image-resize');
 const rename = require('gulp-rename');
-
-const util = require('util');
-const path = require('path');
+const clean = require('gulp-clean');
 
 const maxAllowedWidth = 1024;
 const jsFiles = [
@@ -49,7 +48,7 @@ gulp.task('mincss', function (done) {
 });
 
 gulp.task('minimg', function (done) {
-	gulp.src(files, { base: './' })
+	gulp.src(imageFiles, { base: './' })
 		.pipe(imageResize({
 			width: maxAllowedWidth,
 			upscale: false
@@ -59,6 +58,20 @@ gulp.task('minimg', function (done) {
 			filepath.basename += '.min'
 		}))
 		.pipe(gulp.dest('.'))
+		done();
+});
+
+gulp.task('clean', function(done) {
+	mjs_files = jsFiles.map(f => `${f.substr(0, f.length - 3)}.min.js`)
+	mcss_files = cssFiles.map(f => `${f.substr(0, f.length - 4)}.min.css`)
+	mimg_files = imageFiles.map(f => `${f}.min.*`) // .png / .jpg
+	gulp.src(
+		[].concat(mjs_files, mcss_files, mimg_files), { 
+			allowEmpty: true,
+			read: false 
+		})
+		.pipe(clean())
+	done();
 });
 
 gulp.task('default', gulp.series([
