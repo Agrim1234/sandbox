@@ -17,7 +17,9 @@ const jsFiles = [
 ];
 const cssFiles = [
 	'./overview/*.css',
+	'./aboutus/aboutus.css',
 	'./projects/project.css',
+	'./members/member.css',
 	'./writeups/writeup.css',
 	'./collaboration/collaboration.css'
 ];
@@ -25,7 +27,8 @@ const cssFiles = [
 const imageFiles = [
 	'./overview/images/*',
 	'./projects/images/*',
-	'./common/images/*'
+	'./common/images/*',
+	'./members/images/*'
 ]
 
 function minAsset(files, minifyFn) {
@@ -65,6 +68,7 @@ gulp.task('clean', function(done) {
 	mjs_files = jsFiles.map(f => `${f.substr(0, f.length - 3)}.min.js`)
 	mcss_files = cssFiles.map(f => `${f.substr(0, f.length - 4)}.min.css`)
 	mimg_files = imageFiles.map(f => `${f}.min.*`) // .png / .jpg
+	console.log(mimg_files);
 	gulp.src(
 		[].concat(mjs_files, mcss_files, mimg_files), { 
 			allowEmpty: true,
